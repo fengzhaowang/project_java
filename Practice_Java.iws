@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6320db1b-d62b-4ccf-b870-f301637068fe" name="Default Changelist" comment="" />
+    <list default="true" id="6320db1b-d62b-4ccf-b870-f301637068fe" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Node/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Node/SxtLinkedList01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Node/SxtLinkedList02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Node/SxtLinkedList03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Node/SxtLinkedList04.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice_Java.iws" beforeDir="false" afterPath="$PROJECT_DIR$/Practice_Java.iws" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice_Java/mycollection/SxtArrayList04.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice_Java/mycollection/SxtArrayList04.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +25,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
@@ -69,6 +80,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Node" />
       <recent name="mycollection" />
       <recent name="com.xiamaliu" />
     </key>
@@ -76,7 +88,7 @@
       <recent name="D:\idea\Practice_Java\img" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SxtArrayList04">
+  <component name="RunManager" selected="Application.SxtLinkedList04">
     <configuration name="SxtArrayList04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="mycollection.SxtArrayList04" />
       <module name="Practice_Java" />
@@ -90,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestBuilder3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xiamaliu.TestBuilder3" />
+    <configuration name="SxtLinkedList01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Node.SxtLinkedList01" />
       <module name="Practice_Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xiamaliu.*" />
+          <option name="PATTERN" value="Node.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,12 +115,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestGeneric" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collection.TestGeneric" />
+    <configuration name="SxtLinkedList03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Node.SxtLinkedList03" />
       <module name="Practice_Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collection.*" />
+          <option name="PATTERN" value="Node.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SxtLinkedList04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Node.SxtLinkedList04" />
+      <module name="Practice_Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Node.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,26 +154,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestStringBuilder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xiamaliu.TestStringBuilder" />
-      <module name="Practice_Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.xiamaliu.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SxtLinkedList04" />
+        <item itemvalue="Application.SxtLinkedList03" />
+        <item itemvalue="Application.SxtLinkedList01" />
         <item itemvalue="Application.SxtArrayList04" />
         <item itemvalue="Application.TestList" />
-        <item itemvalue="Application.TestBuilder3" />
-        <item itemvalue="Application.TestStringBuilder" />
-        <item itemvalue="Application.TestGeneric" />
       </list>
     </recent_temporary>
   </component>
@@ -265,11 +277,24 @@
       <workItem from="1600217858338" duration="209000" />
       <workItem from="1600221120236" duration="233000" />
       <workItem from="1600221530436" duration="2339000" />
+      <workItem from="1600224662912" duration="14773000" />
     </task>
+    <task id="LOCAL-00001" summary="9.16">
+      <created>1600224698664</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1600224698664</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="9.16" />
+    <option name="LAST_COMMIT_MESSAGE" value="9.16" />
   </component>
   <component name="WindowStateProjectService">
     <state x="650" y="104" key="#Java" timestamp="1600216422014">
@@ -288,41 +313,61 @@
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state x="824" y="442" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1858.1080@0.0.1858.1080" timestamp="1600171525186" />
-    <state x="1164" y="351" key="#com.intellij.ide.util.MemberChooser" timestamp="1593767784019">
+    <state x="1164" y="351" key="#com.intellij.ide.util.MemberChooser" timestamp="1600240314234">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state x="1164" y="351" key="#com.intellij.ide.util.MemberChooser/0.0.1858.1080@0.0.1858.1080" timestamp="1593767784019" />
-    <state x="709" y="280" key="FileChooserDialogImpl" timestamp="1600171899997">
+    <state x="1164" y="351" key="#com.intellij.ide.util.MemberChooser/0.0.1858.1080@0.0.1858.1080" timestamp="1600240314234" />
+    <state x="527" y="104" key="CommitChangelistDialog2" timestamp="1600224697826">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state x="527" y="104" key="CommitChangelistDialog2/0.0.1858.1080@0.0.1858.1080" timestamp="1600224697826" />
+    <state x="709" y="280" key="FileChooserDialogImpl" timestamp="1600260424634">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state x="709" y="280" key="FileChooserDialogImpl/-1920.0.1858.1080/0.0.1858.1080@0.0.1858.1080" timestamp="1593483721200" />
-    <state x="709" y="280" key="FileChooserDialogImpl/0.0.1858.1080@0.0.1858.1080" timestamp="1600171899997" />
-    <state width="1345" height="115" key="GridCell.Tab.0.bottom" timestamp="1600222406694">
+    <state x="709" y="280" key="FileChooserDialogImpl/0.0.1858.1080@0.0.1858.1080" timestamp="1600260424634" />
+    <state width="1815" height="157" key="GridCell.Tab.0.bottom" timestamp="1600261436907">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state width="1815" height="259" key="GridCell.Tab.0.bottom/-1920.0.1858.1080/0.0.1858.1080@0.0.1858.1080" timestamp="1593564773405" />
-    <state width="1345" height="115" key="GridCell.Tab.0.bottom/0.0.1858.1080@0.0.1858.1080" timestamp="1600222406694" />
-    <state width="1345" height="115" key="GridCell.Tab.0.center" timestamp="1600222406694">
+    <state width="1815" height="157" key="GridCell.Tab.0.bottom/0.0.1858.1080@0.0.1858.1080" timestamp="1600261436907" />
+    <state width="1815" height="157" key="GridCell.Tab.0.center" timestamp="1600261436906">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state width="1815" height="259" key="GridCell.Tab.0.center/-1920.0.1858.1080/0.0.1858.1080@0.0.1858.1080" timestamp="1593564773405" />
-    <state width="1345" height="115" key="GridCell.Tab.0.center/0.0.1858.1080@0.0.1858.1080" timestamp="1600222406694" />
-    <state width="1345" height="115" key="GridCell.Tab.0.left" timestamp="1600222406694">
+    <state width="1815" height="157" key="GridCell.Tab.0.center/0.0.1858.1080@0.0.1858.1080" timestamp="1600261436906" />
+    <state width="1815" height="157" key="GridCell.Tab.0.left" timestamp="1600261436906">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state width="1815" height="259" key="GridCell.Tab.0.left/-1920.0.1858.1080/0.0.1858.1080@0.0.1858.1080" timestamp="1593564773405" />
-    <state width="1345" height="115" key="GridCell.Tab.0.left/0.0.1858.1080@0.0.1858.1080" timestamp="1600222406694" />
-    <state width="1345" height="115" key="GridCell.Tab.0.right" timestamp="1600222406694">
+    <state width="1815" height="157" key="GridCell.Tab.0.left/0.0.1858.1080@0.0.1858.1080" timestamp="1600261436906" />
+    <state width="1815" height="157" key="GridCell.Tab.0.right" timestamp="1600261436906">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state width="1815" height="259" key="GridCell.Tab.0.right/-1920.0.1858.1080/0.0.1858.1080@0.0.1858.1080" timestamp="1593564773405" />
-    <state width="1345" height="115" key="GridCell.Tab.0.right/0.0.1858.1080@0.0.1858.1080" timestamp="1600222406694" />
-    <state x="571" y="274" key="IDE.errors.dialog" timestamp="1600215606670">
+    <state width="1815" height="157" key="GridCell.Tab.0.right/0.0.1858.1080@0.0.1858.1080" timestamp="1600261436906" />
+    <state width="1815" height="352" key="GridCell.Tab.1.bottom" timestamp="1600259420414">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state width="1815" height="352" key="GridCell.Tab.1.bottom/0.0.1858.1080@0.0.1858.1080" timestamp="1600259420414" />
+    <state width="1815" height="352" key="GridCell.Tab.1.center" timestamp="1600259420414">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state width="1815" height="352" key="GridCell.Tab.1.center/0.0.1858.1080@0.0.1858.1080" timestamp="1600259420414" />
+    <state width="1815" height="352" key="GridCell.Tab.1.left" timestamp="1600259420414">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state width="1815" height="352" key="GridCell.Tab.1.left/0.0.1858.1080@0.0.1858.1080" timestamp="1600259420414" />
+    <state width="1815" height="352" key="GridCell.Tab.1.right" timestamp="1600259420414">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state width="1815" height="352" key="GridCell.Tab.1.right/0.0.1858.1080@0.0.1858.1080" timestamp="1600259420414" />
+    <state x="571" y="274" key="IDE.errors.dialog" timestamp="1600238565694">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state x="-1349" y="274" key="IDE.errors.dialog/-1920.0.1858.1080/0.0.1858.1080@-1920.0.1858.1080" timestamp="1593218573156" />
     <state x="571" y="274" key="IDE.errors.dialog/-1920.0.1858.1080/0.0.1858.1080@0.0.1858.1080" timestamp="1593500907230" />
-    <state x="571" y="274" key="IDE.errors.dialog/0.0.1858.1080@0.0.1858.1080" timestamp="1600215606670" />
+    <state x="571" y="274" key="IDE.errors.dialog/0.0.1858.1080@0.0.1858.1080" timestamp="1600238565694" />
     <state x="544" y="99" width="998" height="708" key="SettingsEditor" timestamp="1600223875068">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
@@ -333,9 +378,21 @@
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state x="1316" y="440" width="540" height="524" key="StructurePopup/0.0.1858.1080@0.0.1858.1080" timestamp="1593767678387" />
+    <state x="521" y="272" key="Vcs.Push.Dialog.v2" timestamp="1600224725552">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state x="521" y="272" key="Vcs.Push.Dialog.v2/0.0.1858.1080@0.0.1858.1080" timestamp="1600224725552" />
+    <state x="777" y="245" width="665" height="594" key="find.popup" timestamp="1600261573187">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state x="777" y="245" width="665" height="594" key="find.popup/0.0.1858.1080@0.0.1858.1080" timestamp="1600261573187" />
     <state width="323" height="493" key="javadoc.popup.new" timestamp="1593501745298">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state width="323" height="493" key="javadoc.popup.new/-1920.0.1858.1080/0.0.1858.1080@0.0.1858.1080" timestamp="1593501745298" />
+    <state x="1231" y="267" width="672" height="678" key="search.everywhere.popup" timestamp="1600246636195">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state x="1231" y="267" width="672" height="678" key="search.everywhere.popup/0.0.1858.1080@0.0.1858.1080" timestamp="1600246636195" />
   </component>
 </project>
