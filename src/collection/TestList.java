@@ -4,8 +4,6 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 
-woyixiugai了
-
 public class TestList {
     public static void main(String[] args) {
         test01();
