@@ -1,38 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6320db1b-d62b-4ccf-b870-f301637068fe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/a.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/abc.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/File/ContentDecode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/File/ContentEncode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/File/DirDemo01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/File/DirDemo02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/File/DirDemo03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/File/DirDemo04.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/File/DirDemo05.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/File/FileDemo01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/File/PathDemo01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/File/PathDemo02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/File/PathDemo03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/File/PathDemo04.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/File/PathDemo05.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/File/PathDemo06.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/File/img/aaa.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/IO/IOTest01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/IO/IOTest02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/IO/IOTest03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/IO/IOTest04.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/IO/IOTest05.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/IO/IOTest06.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/IO/IOTest07.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/IO/IOTest08.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Iterator/TestIterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaBeanAndList/JavaBeanAndList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MapAndList/MapAndList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collections/TestCollections.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice_Java.iws" beforeDir="false" afterPath="$PROJECT_DIR$/Practice_Java.iws" afterDir="false" />
-    </list>
+    <list default="true" id="6320db1b-d62b-4ccf-b870-f301637068fe" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -310,7 +279,7 @@
       <workItem from="1600221530436" duration="2339000" />
       <workItem from="1600224662912" duration="14953000" />
       <workItem from="1600300589277" duration="20282000" />
-      <workItem from="1600389521954" duration="19469000" />
+      <workItem from="1600389521954" duration="19801000" />
     </task>
     <task id="LOCAL-00001" summary="9.16">
       <created>1600224698664</created>
@@ -340,7 +309,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600312333922</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="9.18">
+      <created>1600434402212</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1600434402212</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -349,7 +325,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="9.16" />
     <MESSAGE value="9.17" />
-    <option name="LAST_COMMIT_MESSAGE" value="9.17" />
+    <MESSAGE value="9.18" />
+    <option name="LAST_COMMIT_MESSAGE" value="9.18" />
   </component>
   <component name="WindowStateProjectService">
     <state x="650" y="104" key="#Java" timestamp="1600216422014">
@@ -372,10 +349,10 @@
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state x="1164" y="351" key="#com.intellij.ide.util.MemberChooser/0.0.1858.1080@0.0.1858.1080" timestamp="1600433843222" />
-    <state x="527" y="104" key="CommitChangelistDialog2" timestamp="1600312333006">
+    <state x="527" y="104" key="CommitChangelistDialog2" timestamp="1600434400619">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state x="527" y="104" key="CommitChangelistDialog2/0.0.1858.1080@0.0.1858.1080" timestamp="1600312333006" />
+    <state x="527" y="104" key="CommitChangelistDialog2/0.0.1858.1080@0.0.1858.1080" timestamp="1600434400619" />
     <state x="179" y="140" width="1205" height="821" key="DiffContextDialog" timestamp="1600415124534">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
@@ -385,26 +362,26 @@
     </state>
     <state x="709" y="280" key="FileChooserDialogImpl/-1920.0.1858.1080/0.0.1858.1080@0.0.1858.1080" timestamp="1593483721200" />
     <state x="709" y="280" key="FileChooserDialogImpl/0.0.1858.1080@0.0.1858.1080" timestamp="1600431212924" />
-    <state width="1815" height="259" key="GridCell.Tab.0.bottom" timestamp="1600432863658">
+    <state width="1345" height="200" key="GridCell.Tab.0.bottom" timestamp="1600434320373">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state width="1815" height="259" key="GridCell.Tab.0.bottom/-1920.0.1858.1080/0.0.1858.1080@0.0.1858.1080" timestamp="1593564773405" />
-    <state width="1815" height="259" key="GridCell.Tab.0.bottom/0.0.1858.1080@0.0.1858.1080" timestamp="1600432863658" />
-    <state width="1815" height="259" key="GridCell.Tab.0.center" timestamp="1600432863658">
+    <state width="1345" height="200" key="GridCell.Tab.0.bottom/0.0.1858.1080@0.0.1858.1080" timestamp="1600434320373" />
+    <state width="1345" height="200" key="GridCell.Tab.0.center" timestamp="1600434320373">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state width="1815" height="259" key="GridCell.Tab.0.center/-1920.0.1858.1080/0.0.1858.1080@0.0.1858.1080" timestamp="1593564773405" />
-    <state width="1815" height="259" key="GridCell.Tab.0.center/0.0.1858.1080@0.0.1858.1080" timestamp="1600432863658" />
-    <state width="1815" height="259" key="GridCell.Tab.0.left" timestamp="1600432863658">
+    <state width="1345" height="200" key="GridCell.Tab.0.center/0.0.1858.1080@0.0.1858.1080" timestamp="1600434320373" />
+    <state width="1345" height="200" key="GridCell.Tab.0.left" timestamp="1600434320373">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state width="1815" height="259" key="GridCell.Tab.0.left/-1920.0.1858.1080/0.0.1858.1080@0.0.1858.1080" timestamp="1593564773405" />
-    <state width="1815" height="259" key="GridCell.Tab.0.left/0.0.1858.1080@0.0.1858.1080" timestamp="1600432863658" />
-    <state width="1815" height="259" key="GridCell.Tab.0.right" timestamp="1600432863658">
+    <state width="1345" height="200" key="GridCell.Tab.0.left/0.0.1858.1080@0.0.1858.1080" timestamp="1600434320373" />
+    <state width="1345" height="200" key="GridCell.Tab.0.right" timestamp="1600434320373">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state width="1815" height="259" key="GridCell.Tab.0.right/-1920.0.1858.1080/0.0.1858.1080@0.0.1858.1080" timestamp="1593564773405" />
-    <state width="1815" height="259" key="GridCell.Tab.0.right/0.0.1858.1080@0.0.1858.1080" timestamp="1600432863658" />
+    <state width="1345" height="200" key="GridCell.Tab.0.right/0.0.1858.1080@0.0.1858.1080" timestamp="1600434320373" />
     <state width="1815" height="378" key="GridCell.Tab.1.bottom" timestamp="1600430700650">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
@@ -437,10 +414,10 @@
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state x="1316" y="440" width="540" height="524" key="StructurePopup/0.0.1858.1080@0.0.1858.1080" timestamp="1593767678387" />
-    <state x="521" y="272" key="Vcs.Push.Dialog.v2" timestamp="1600312347035">
+    <state x="521" y="272" key="Vcs.Push.Dialog.v2" timestamp="1600434430466">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state x="521" y="272" key="Vcs.Push.Dialog.v2/0.0.1858.1080@0.0.1858.1080" timestamp="1600312347035" />
+    <state x="521" y="272" key="Vcs.Push.Dialog.v2/0.0.1858.1080@0.0.1858.1080" timestamp="1600434430466" />
     <state x="777" y="245" width="665" height="594" key="find.popup" timestamp="1600430529503">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
