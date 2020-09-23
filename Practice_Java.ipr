@@ -199,4 +199,20 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
   </component>
+  <component name="libraryTable">
+    <library name="commons-io-2.8.0">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/lib/commons-io-2.8.0.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="commons-io-2.8.0-sources">
+      <CLASSES />
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/lib/commons-io-2.8.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+  </component>
 </project>

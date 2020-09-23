@@ -7,5 +7,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" exported="" name="commons-io-2.8.0-sources" level="project" />
+    <orderEntry type="library" exported="" name="commons-io-2.8.0" level="project" />
   </component>
 </module>
