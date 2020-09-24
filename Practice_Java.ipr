@@ -200,6 +200,18 @@
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
   </component>
   <component name="libraryTable">
+    <library name="c3p0-0.9.5.2">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/lib/quartz/c3p0-0.9.5.2.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/quartz/log4j-1.2.16.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/quartz/quartz-2.3.0-SNAPSHOT.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/quartz/quartz-jobs-2.3.0-SNAPSHOT.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/quartz/slf4j-api-1.7.7.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/quartz/slf4j-log4j12-1.7.7.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
     <library name="commons-io-2.8.0">
       <CLASSES>
         <root url="jar://$PROJECT_DIR$/lib/commons-io-2.8.0.jar!/" />

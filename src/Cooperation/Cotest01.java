@@ -4,7 +4,8 @@ package Cooperation;
  * @BelongsProject: Practice_Java
  * @Author: loveT
  * @Date: Created in 2020 - 09 - 23 21 : 02
- * @Description: 协作模型：生产者与消费者实现方式一：管程法
+ * @Description: 协作模型：生产者与消费者实现方式一：管程法，借助缓冲区
+ * 生产者、消费者、缓冲区、数据
  */
 public class Cotest01 {
     public static void main(String[] args) {
@@ -51,7 +52,7 @@ class SynContainer{
     Steamedbun[] buns = new Steamedbun[10];//存储数据的容器
     int count = 0;//计数器
     //存储 生产
-    public void push(Steamedbun bun){
+    public synchronized void push(Steamedbun bun){
         //何时能生产 容器存在空间时可以生产
         //没有空间  等待生产
         if(count == buns.length){
@@ -68,7 +69,7 @@ class SynContainer{
         this.notifyAll();
     }
     //获取 消费
-    public Steamedbun pop(){
+    public synchronized Steamedbun pop(){
         //何时消费 容器中是否存在数据
         //没有数据 只有等待
         if(count == 0){
