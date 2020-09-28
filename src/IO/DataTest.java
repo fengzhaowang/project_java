@@ -17,6 +17,7 @@ public class DataTest {
         dos.writeInt(18);
         dos.writeBoolean(false);
         dos.writeChar('a');
+        dos.flush();//强制发送输出流
         byte[] datas = baos.toByteArray();
         //读取
         DataInputStream dis = new DataInputStream(new BufferedInputStream(new ByteArrayInputStream(datas)));

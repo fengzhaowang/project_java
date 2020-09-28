@@ -19,166 +19,43 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6320db1b-d62b-4ccf-b870-f301637068fe" name="Default Changelist" comment="9.23">
-      <change afterPath="$PROJECT_DIR$/lib/quartz/c3p0-0.9.5.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz/log4j-1.2.16.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz/quartz-2.3.0-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz/quartz-jobs-2.3.0-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz/slf4j-api-1.7.7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz/slf4j-log4j12-1.7.7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Cooperation/Cotest02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Others/TimerTest01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Quartz/HelloJob.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Quartz/QuertzTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice_Java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice_Java.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice_Java.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/Practice_Java.ipr" afterDir="false" />
+    <list default="true" id="6320db1b-d62b-4ccf-b870-f301637068fe" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UdpFileServer-phone.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Location/IPTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Location/PortTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Location/SpiderTest01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Location/SpiderTest02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Location/URLTest01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Others/DoubleCheckedLocking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Others/HappenBefore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Others/LockTest01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Others/LockTest02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Others/LockTest03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Others/ThreadLocalTest01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Others/ThreadLocalTest02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Others/ThreadLocalTest03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Others/ThreadLocalTest04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Others/VolatileTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UDP/TalkReceive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UDP/TalkSend.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UDP/TalkStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UDP/TalkTeacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UDP/UdpClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UDP/UdpFileClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UDP/UdpFileServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UDP/UdpServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UDP/UdpTalkClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UDP/UdpTalkServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UDP/UdpTypeClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UDP/UdpTypeServer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Practice_Java.iws" beforeDir="false" afterPath="$PROJECT_DIR$/Practice_Java.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice_Java/collection/MyCollection.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice_Java/collection/MyCollection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice_Java/collection/TestGeneric.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice_Java/collection/TestGeneric.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice_Java/collection/TestList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice_Java/collection/TestList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice_Java/collections/TestCollections.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice_Java/collections/TestCollections.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice_Java/com/xiamaliu/A.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice_Java/com/xiamaliu/AA.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice_Java/com/xiamaliu/Abstract.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice_Java/com/xiamaliu/Angel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice_Java/com/xiamaliu/Animal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice_Java/com/xiamaliu/Animals.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice_Java/com/xiamaliu/Animals3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice_Java/com/xiamaliu/Animalses.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice_Java/com/xiamaliu/AnonymousInnerClass$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice_Java/com/xiamaliu/AnonymousInnerClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice_Java/com/xiamaliu/Array.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice_Java/com/xiamaliu/Array2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice_Java/com/xiamaliu/B.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice_Java/com/xiamaliu/BB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice_Java/com/xiamaliu/BallGames.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice_Java/com/xiamaliu/BallGames2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice_Java/com/xiamaliu/Birdman.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice_Java/com/xiamaliu/C.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice_Java/com/xiamaliu/Cat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice_Java/com/xiamaliu/Cat2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice_Java/com/xiamaliu/Cat3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice_Java/com/xiamaliu/ChildClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice_Java/com/xiamaliu/ChildClass2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice_Java/com/xiamaliu/Computer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice_Java/com/xiamaliu/CustomException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice_Java/com/xiamaliu/Dog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice_Java/com/xiamaliu/Dog2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice_Java/com/xiamaliu/Dog3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice_Java/com/xiamaliu/FatherClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice_Java/com/xiamaliu/FatherClass2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice_Java/com/xiamaliu/Final.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice_Java/com/xiamaliu/ForEach.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice_Java/com/xiamaliu/GoodMan.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice_Java/com/xiamaliu/Gouzaofangfa.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice_Java/com/xiamaliu/Honest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice_Java/com/xiamaliu/Horse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice_Java/com/xiamaliu/IllegalAgeException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice_Java/com/xiamaliu/InnerClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice_Java/com/xiamaliu/JavaBean.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice_Java/com/xiamaliu/MyClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice_Java/com/xiamaliu/MyInterface.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice_Java/com/xiamaliu/MyInterface2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice_Java/com/xiamaliu/MyInterface3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice_Java/com/xiamaliu/Mysubclass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice_Java/com/xiamaliu/Outer2$Inner2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice_Java/com/xiamaliu/Outer2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice_Java/com/xiamaliu/Outher$Inner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice_Java/com/xiamaliu/Outher.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice_Java/com/xiamaliu/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice_Java/com/xiamaliu/Person2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice_Java/com/xiamaliu/Persons.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice_Java/com/xiamaliu/Point.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice_Java/com/xiamaliu/Polymorphism.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice_Java/com/xiamaliu/Polymorphism2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice_Java/com/xiamaliu/Season.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice_Java/com/xiamaliu/Static.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice_Java/com/xiamaliu/Static2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice_Java/com/xiamaliu/StaticInnerClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice_Java/com/xiamaliu/Strings.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice_Java/com/xiamaliu/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice_Java/com/xiamaliu/Test2DimensionArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice_Java/com/xiamaliu/TestArrayCopy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice_Java/com/xiamaliu/TestArrayTableData.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice_Java/com/xiamaliu/TestArrays.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice_Java/com/xiamaliu/TestAutoBox.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice_Java/com/xiamaliu/TestBinarySearch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice_Java/com/xiamaliu/TestBubbleSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice_Java/com/xiamaliu/TestBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice_Java/com/xiamaliu/TestBuilder3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice_Java/com/xiamaliu/TestCalendar.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice_Java/com/xiamaliu/TestDateFormat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice_Java/com/xiamaliu/TestEnum$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice_Java/com/xiamaliu/TestEnum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice_Java/com/xiamaliu/TestEquals.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice_Java/com/xiamaliu/TestExtends.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice_Java/com/xiamaliu/TestOverride.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice_Java/com/xiamaliu/TestOverrideToString.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice_Java/com/xiamaliu/TestStringBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice_Java/com/xiamaliu/TestSuper01.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice_Java/com/xiamaliu/TestSuper02.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice_Java/com/xiamaliu/TestWrappedClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice_Java/com/xiamaliu/This.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice_Java/com/xiamaliu/UseJavaBean.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice_Java/com/xiamaliu/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice_Java/com/xiamaliu/Users.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice_Java/com/xiamaliu/Vehicle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice_Java/com/xiamaliu/Volant.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice_Java/com/xiamaliu/Week.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice_Java/com/xiamaliu/Zhanduifangfaqu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice_Java/com/xiamaliu/fangfachongzai.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice_Java/com/xiamaliu/maopaopaixu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice_Java/com/xiamaliu/user2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Cooperation/Cotest01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cooperation/Cotest01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/collection/TestGeneric.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Collection/TestGeneric.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/collection/TestList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Collection/TestList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/collections/TestCollections.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Collections/TestCollections.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xiamaliu/Abstract.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Base/Abstract.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xiamaliu/AnonymousInnerClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Base/AnonymousInnerClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xiamaliu/Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Base/Array.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xiamaliu/Array2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Base/Array2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xiamaliu/BallGames.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Base/BallGames.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xiamaliu/BallGames2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Base/BallGames2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xiamaliu/CustomException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Base/CustomException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xiamaliu/Final.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Base/Final.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xiamaliu/ForEach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Base/ForEach.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xiamaliu/Gouzaofangfa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Base/Gouzaofangfa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xiamaliu/InnerClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Base/InnerClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xiamaliu/JavaBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Base/JavaBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xiamaliu/MyInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Base/MyInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xiamaliu/MyInterface2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Base/MyInterface2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xiamaliu/MyInterface3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Base/MyInterface3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xiamaliu/Polymorphism.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Base/Polymorphism.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xiamaliu/Polymorphism2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Base/Polymorphism2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xiamaliu/Static.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Base/Static.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xiamaliu/Static2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Base/Static2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xiamaliu/StaticInnerClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Base/StaticInnerClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xiamaliu/Strings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Base/Strings.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xiamaliu/Test2DimensionArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Base/Test2DimensionArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xiamaliu/TestArrayCopy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Base/TestArrayCopy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xiamaliu/TestArrayTableData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Base/TestArrayTableData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xiamaliu/TestArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Base/TestArrays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xiamaliu/TestAutoBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Base/TestAutoBox.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xiamaliu/TestBinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Base/TestBinarySearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xiamaliu/TestBubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Base/TestBubbleSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xiamaliu/TestBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Base/TestBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xiamaliu/TestBuilder3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Base/TestBuilder3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xiamaliu/TestCalendar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Base/TestCalendar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xiamaliu/TestDateFormat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Base/TestDateFormat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xiamaliu/TestEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Base/TestEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xiamaliu/TestEquals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Base/TestEquals.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xiamaliu/TestExtends.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Base/TestExtends.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xiamaliu/TestOverride.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Base/TestOverride.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xiamaliu/TestOverrideToString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Base/TestOverrideToString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xiamaliu/TestStringBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Base/TestStringBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xiamaliu/TestSuper01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Base/TestSuper01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xiamaliu/TestSuper02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Base/TestSuper02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xiamaliu/TestWrappedClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Base/TestWrappedClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xiamaliu/This.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Base/This.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xiamaliu/UseJavaBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Base/UseJavaBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xiamaliu/Zhanduifangfaqu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Base/Zhanduifangfaqu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xiamaliu/fangfachongzai.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Base/fangfachongzai.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xiamaliu/maopaopaixu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Base/maopaopaixu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice_Java/IO/DataTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice_Java/IO/DataTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice_Java/Others/MyTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice_Java/Others/MyTask.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice_Java/Others/TimerTest01.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice_Java/Others/TimerTest01.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IO/DataTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IO/DataTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Quartz/HelloJob.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Quartz/HelloJob.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Quartz/QuertzTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Quartz/QuertzTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -240,10 +117,10 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
-    <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
+    <option name="showVisibilityIcons" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
@@ -252,7 +129,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Quartz" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/UDP" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -271,27 +148,27 @@
       <recent name="D:\idea\project_java\src\IO\file" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="UDP" />
+      <recent name="Location" />
+      <recent name="Others" />
       <recent name="Synchronized" />
       <recent name="Thread2" />
-      <recent name="Thread" />
-      <recent name="IO_Commons" />
-      <recent name="IO" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\idea\project_java\src\UDP" />
+      <recent name="D:\idea\project_java\src\Others" />
       <recent name="D:\idea\project_java\src\Quartz" />
       <recent name="D:\idea\project_java\lib\quartz" />
       <recent name="D:\idea\project_java\src\Synchronized" />
-      <recent name="D:\idea\project_java\src\Thread2" />
-      <recent name="D:\idea\project_java\src\Lambda" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TimerTest01">
-    <configuration name="Cotest01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Cooperation.Cotest01" />
+  <component name="RunManager" selected="Application.TalkStudent">
+    <configuration name="TalkStudent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="UDP.TalkStudent" />
       <module name="Practice_Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Cooperation.*" />
+          <option name="PATTERN" value="UDP.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -299,12 +176,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Cotest02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Cooperation.Cotest02" />
+    <configuration name="TalkTeacher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="UDP.TalkTeacher" />
       <module name="Practice_Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Cooperation.*" />
+          <option name="PATTERN" value="UDP.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -312,12 +189,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DeadLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Synchronized.DeadLock" />
+    <configuration name="UdpFileClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="UDP.UdpFileClient" />
       <module name="Practice_Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Synchronized.*" />
+          <option name="PATTERN" value="UDP.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -325,12 +202,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StartThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Thread.StartThread" />
+    <configuration name="UdpTalkClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="UDP.UdpTalkClient" />
       <module name="Practice_Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Thread.*" />
+          <option name="PATTERN" value="UDP.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -338,12 +215,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TimerTest01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Others.TimerTest01" />
+    <configuration name="UdpTalkServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="UDP.UdpTalkServer" />
       <module name="Practice_Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Others.*" />
+          <option name="PATTERN" value="UDP.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -351,13 +228,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.UdpFileClient" />
+      <item itemvalue="Application.UdpTalkClient" />
+      <item itemvalue="Application.UdpTalkServer" />
+      <item itemvalue="Application.TalkStudent" />
+      <item itemvalue="Application.TalkTeacher" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TimerTest01" />
-        <item itemvalue="Application.Cotest02" />
-        <item itemvalue="Application.Cotest01" />
-        <item itemvalue="Application.StartThread" />
-        <item itemvalue="Application.DeadLock" />
+        <item itemvalue="Application.TalkTeacher" />
+        <item itemvalue="Application.TalkStudent" />
+        <item itemvalue="Application.UdpTalkClient" />
+        <item itemvalue="Application.UdpTalkServer" />
+        <item itemvalue="Application.UdpFileClient" />
       </list>
     </recent_temporary>
   </component>
@@ -488,7 +372,11 @@
       <workItem from="1600819306934" duration="24782000" />
       <workItem from="1600904937318" duration="5508000" />
       <workItem from="1600913426850" duration="39000" />
-      <workItem from="1600915466435" duration="1529000" />
+      <workItem from="1600915466435" duration="10314000" />
+      <workItem from="1600993587603" duration="10518000" />
+      <workItem from="1601038879924" duration="604000" />
+      <workItem from="1601179375312" duration="1078000" />
+      <workItem from="1601249923218" duration="10458000" />
     </task>
     <task id="LOCAL-00001" summary="9.16">
       <created>1600224698664</created>
@@ -553,7 +441,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600868250838</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="9.24">
+      <created>1600917166526</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1600917166526</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -587,7 +482,8 @@
     <MESSAGE value="9.17" />
     <MESSAGE value="9.18" />
     <MESSAGE value="9.23" />
-    <option name="LAST_COMMIT_MESSAGE" value="9.23" />
+    <MESSAGE value="9.24" />
+    <option name="LAST_COMMIT_MESSAGE" value="9.24" />
   </component>
   <component name="WindowStateProjectService">
     <state x="650" y="104" key="#Java" timestamp="1600216422014">
@@ -598,10 +494,10 @@
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state x="786" y="401" key="#Scopes/0.0.1858.1080@0.0.1858.1080" timestamp="1600152541010" />
-    <state x="517" y="219" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600171821928">
+    <state x="517" y="219" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601260406942">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state x="517" y="219" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1858.1080@0.0.1858.1080" timestamp="1600171821928" />
+    <state x="517" y="219" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1858.1080@0.0.1858.1080" timestamp="1601260406942" />
     <state x="732" y="340" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600756945407">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
@@ -610,10 +506,10 @@
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state x="824" y="442" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1858.1080@0.0.1858.1080" timestamp="1600171525186" />
-    <state x="1164" y="351" key="#com.intellij.ide.util.MemberChooser" timestamp="1600911334804">
+    <state x="1164" y="351" key="#com.intellij.ide.util.MemberChooser" timestamp="1601259734673">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state x="1164" y="351" key="#com.intellij.ide.util.MemberChooser/0.0.1858.1080@0.0.1858.1080" timestamp="1600911334804" />
+    <state x="1164" y="351" key="#com.intellij.ide.util.MemberChooser/0.0.1858.1080@0.0.1858.1080" timestamp="1601259734673" />
     <state x="837" y="448" width="447" height="222" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1600842892768">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
@@ -626,10 +522,10 @@
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state x="811" y="160" key="#quartz-2.3.0-SNAPSHOT.jar/0.0.1858.1080@0.0.1858.1080" timestamp="1600915745833" />
-    <state x="527" y="104" key="CommitChangelistDialog2" timestamp="1600916625786">
+    <state x="527" y="104" key="CommitChangelistDialog2" timestamp="1600917164832">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state x="527" y="104" key="CommitChangelistDialog2/0.0.1858.1080@0.0.1858.1080" timestamp="1600916625786" />
+    <state x="527" y="104" key="CommitChangelistDialog2/0.0.1858.1080@0.0.1858.1080" timestamp="1600917164832" />
     <state x="179" y="140" width="1205" height="821" key="DiffContextDialog" timestamp="1600415124534">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
@@ -639,48 +535,48 @@
     </state>
     <state x="709" y="280" key="FileChooserDialogImpl/-1920.0.1858.1080/0.0.1858.1080@0.0.1858.1080" timestamp="1593483721200" />
     <state x="709" y="280" key="FileChooserDialogImpl/0.0.1858.1080@0.0.1858.1080" timestamp="1600915949823" />
-    <state width="1345" height="201" key="GridCell.Tab.0.bottom" timestamp="1600912642546">
+    <state width="1815" height="187" key="GridCell.Tab.0.bottom" timestamp="1601261796692">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state width="1815" height="259" key="GridCell.Tab.0.bottom/-1920.0.1858.1080/0.0.1858.1080@0.0.1858.1080" timestamp="1593564773405" />
-    <state width="1345" height="201" key="GridCell.Tab.0.bottom/0.0.1858.1080@0.0.1858.1080" timestamp="1600912642546" />
-    <state width="1345" height="201" key="GridCell.Tab.0.center" timestamp="1600912642546">
+    <state width="1815" height="187" key="GridCell.Tab.0.bottom/0.0.1858.1080@0.0.1858.1080" timestamp="1601261796692" />
+    <state width="1815" height="187" key="GridCell.Tab.0.center" timestamp="1601261796692">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state width="1815" height="259" key="GridCell.Tab.0.center/-1920.0.1858.1080/0.0.1858.1080@0.0.1858.1080" timestamp="1593564773405" />
-    <state width="1345" height="201" key="GridCell.Tab.0.center/0.0.1858.1080@0.0.1858.1080" timestamp="1600912642546" />
-    <state width="1345" height="201" key="GridCell.Tab.0.left" timestamp="1600912642546">
+    <state width="1815" height="187" key="GridCell.Tab.0.center/0.0.1858.1080@0.0.1858.1080" timestamp="1601261796692" />
+    <state width="1815" height="187" key="GridCell.Tab.0.left" timestamp="1601261796692">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state width="1815" height="259" key="GridCell.Tab.0.left/-1920.0.1858.1080/0.0.1858.1080@0.0.1858.1080" timestamp="1593564773405" />
-    <state width="1345" height="201" key="GridCell.Tab.0.left/0.0.1858.1080@0.0.1858.1080" timestamp="1600912642546" />
-    <state width="1345" height="201" key="GridCell.Tab.0.right" timestamp="1600912642546">
+    <state width="1815" height="187" key="GridCell.Tab.0.left/0.0.1858.1080@0.0.1858.1080" timestamp="1601261796692" />
+    <state width="1815" height="187" key="GridCell.Tab.0.right" timestamp="1601261796692">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state width="1815" height="259" key="GridCell.Tab.0.right/-1920.0.1858.1080/0.0.1858.1080@0.0.1858.1080" timestamp="1593564773405" />
-    <state width="1345" height="201" key="GridCell.Tab.0.right/0.0.1858.1080@0.0.1858.1080" timestamp="1600912642546" />
-    <state width="1815" height="348" key="GridCell.Tab.1.bottom" timestamp="1600868838727">
+    <state width="1815" height="187" key="GridCell.Tab.0.right/0.0.1858.1080@0.0.1858.1080" timestamp="1601261796692" />
+    <state width="1815" height="248" key="GridCell.Tab.1.bottom" timestamp="1601261285371">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state width="1815" height="348" key="GridCell.Tab.1.bottom/0.0.1858.1080@0.0.1858.1080" timestamp="1600868838727" />
-    <state width="1815" height="348" key="GridCell.Tab.1.center" timestamp="1600868838727">
+    <state width="1815" height="248" key="GridCell.Tab.1.bottom/0.0.1858.1080@0.0.1858.1080" timestamp="1601261285371" />
+    <state width="1815" height="248" key="GridCell.Tab.1.center" timestamp="1601261285370">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state width="1815" height="348" key="GridCell.Tab.1.center/0.0.1858.1080@0.0.1858.1080" timestamp="1600868838727" />
-    <state width="1815" height="348" key="GridCell.Tab.1.left" timestamp="1600868838727">
+    <state width="1815" height="248" key="GridCell.Tab.1.center/0.0.1858.1080@0.0.1858.1080" timestamp="1601261285370" />
+    <state width="1815" height="248" key="GridCell.Tab.1.left" timestamp="1601261285370">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state width="1815" height="348" key="GridCell.Tab.1.left/0.0.1858.1080@0.0.1858.1080" timestamp="1600868838727" />
-    <state width="1815" height="348" key="GridCell.Tab.1.right" timestamp="1600868838727">
+    <state width="1815" height="248" key="GridCell.Tab.1.left/0.0.1858.1080@0.0.1858.1080" timestamp="1601261285370" />
+    <state width="1815" height="248" key="GridCell.Tab.1.right" timestamp="1601261285371">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state width="1815" height="348" key="GridCell.Tab.1.right/0.0.1858.1080@0.0.1858.1080" timestamp="1600868838727" />
-    <state x="571" y="274" key="IDE.errors.dialog" timestamp="1600907766660">
+    <state width="1815" height="248" key="GridCell.Tab.1.right/0.0.1858.1080@0.0.1858.1080" timestamp="1601261285371" />
+    <state x="571" y="274" key="IDE.errors.dialog" timestamp="1601253203925">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state x="-1349" y="274" key="IDE.errors.dialog/-1920.0.1858.1080/0.0.1858.1080@-1920.0.1858.1080" timestamp="1593218573156" />
     <state x="571" y="274" key="IDE.errors.dialog/-1920.0.1858.1080/0.0.1858.1080@0.0.1858.1080" timestamp="1593500907230" />
-    <state x="571" y="274" key="IDE.errors.dialog/0.0.1858.1080@0.0.1858.1080" timestamp="1600907766660" />
+    <state x="571" y="274" key="IDE.errors.dialog/0.0.1858.1080@0.0.1858.1080" timestamp="1601253203925" />
     <state x="445" y="172" width="998" height="708" key="SettingsEditor" timestamp="1600915958045">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
@@ -691,10 +587,18 @@
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state x="1316" y="440" width="540" height="524" key="StructurePopup/0.0.1858.1080@0.0.1858.1080" timestamp="1593767678387" />
-    <state x="521" y="272" key="Vcs.Push.Dialog.v2" timestamp="1600868293489">
+    <state x="521" y="272" key="Vcs.Push.Dialog.v2" timestamp="1600917220910">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state x="521" y="272" key="Vcs.Push.Dialog.v2/0.0.1858.1080@0.0.1858.1080" timestamp="1600868293489" />
+    <state x="521" y="272" key="Vcs.Push.Dialog.v2/0.0.1858.1080@0.0.1858.1080" timestamp="1600917220910" />
+    <state x="512" y="201" width="1205" height="688" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1600930466444">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state x="512" y="201" width="1205" height="688" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1858.1080@0.0.1858.1080" timestamp="1600930466444" />
+    <state x="100" y="0" width="1029" height="649" key="dock-window-1" timestamp="1601002690607">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state x="100" y="0" width="1029" height="649" key="dock-window-1/0.0.1858.1080@0.0.1858.1080" timestamp="1601002690607" />
     <state x="777" y="245" width="665" height="594" key="find.popup" timestamp="1600430529503">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
@@ -707,9 +611,9 @@
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state x="1222" y="263" key="run.anything.popup/0.0.1858.1080@0.0.1858.1080" timestamp="1600331681629" />
-    <state x="779" y="238" width="672" height="678" key="search.everywhere.popup" timestamp="1600860687742">
+    <state x="779" y="238" width="672" height="678" key="search.everywhere.popup" timestamp="1601260715969">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state x="779" y="238" width="672" height="678" key="search.everywhere.popup/0.0.1858.1080@0.0.1858.1080" timestamp="1600860687742" />
+    <state x="779" y="238" width="672" height="678" key="search.everywhere.popup/0.0.1858.1080@0.0.1858.1080" timestamp="1601260715969" />
   </component>
 </project>

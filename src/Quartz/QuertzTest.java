@@ -1,35 +1,14 @@
-/* 
- * All content copyright Terracotta, Inc., unless otherwise indicated. All rights reserved. 
- * 
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not 
- * use this file except in compliance with the License. You may obtain a copy 
- * of the License at 
- * 
- *   http://www.apache.org/licenses/LICENSE-2.0 
- *   
- * Unless required by applicable law or agreed to in writing, software 
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT 
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the 
- * License for the specific language governing permissions and limitations 
- * under the License.
- * 
- */
- 
 package Quartz;
 
 import static org.quartz.DateBuilder.evenSecondDateAfterNow;
 import static org.quartz.JobBuilder.newJob;
+import static org.quartz.SimpleScheduleBuilder.simpleSchedule;
 import static org.quartz.TriggerBuilder.newTrigger;
-
 import org.quartz.JobDetail;
 import org.quartz.Scheduler;
 import org.quartz.SchedulerFactory;
 import org.quartz.Trigger;
 import org.quartz.impl.StdSchedulerFactory;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-
-import java.beans.EventSetDescriptor;
 import java.util.Date;
 
 public class QuertzTest {
@@ -49,7 +28,9 @@ public class QuertzTest {
     Date runTime = evenSecondDateAfterNow();
 
     // 4、创建触发器
-    Trigger trigger = newTrigger().withIdentity("trigger1", "group1").startAt(runTime).build();
+    //Trigger trigger = newTrigger().withIdentity("trigger1", "group1").startAt(runTime).build();
+    Trigger trigger = newTrigger().withIdentity("trigger1", "group1").startAt(runTime)
+            .withSchedule(simpleSchedule().withIntervalInSeconds(5).withRepeatCount(3)).build();
 
     // 5、注册任务和触发条件
     sched.scheduleJob(job, trigger);
@@ -59,7 +40,7 @@ public class QuertzTest {
 
     try {
       // 65秒之后关闭
-      Thread.sleep(65L * 1000L);
+      Thread.sleep(20L * 1000L);
     } catch (Exception e) {
       //
     }
