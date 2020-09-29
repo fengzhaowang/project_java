@@ -13,10 +13,13 @@ import java.net.Socket;
 public class SomePeopleClient {
     public static void main(String[] args) throws IOException {
         System.out.println("---------Client---------");
+        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+        System.out.println("请输入姓名：");
+        String uname = reader.readLine();
         //1、建立连接 ：使用Socket 创建客户端 + 服务器的地址和端口
         Socket client = new Socket("localhost",8888);
         //2、操作 ： 输入输出流操作
-        new Thread(new Send(client)).start();
+        new Thread(new Send(client,uname)).start();
         new Thread(new Receive(client)).start();
     }
 }

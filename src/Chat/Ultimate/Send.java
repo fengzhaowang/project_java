@@ -1,6 +1,11 @@
-package Chat;
+package Chat.Ultimate;
 
-import java.io.*;
+import Chat.Utils;
+
+import java.io.BufferedReader;
+import java.io.DataOutputStream;
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.net.Socket;
 
 /**

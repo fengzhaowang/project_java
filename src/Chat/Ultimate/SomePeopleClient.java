@@ -1,16 +1,18 @@
-package Chat;
+package Chat.Ultimate;
 
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.net.Socket;
 
 /**
  * @BelongsProject: Practice_Java
  * @Author: loveT
  * @Date: Created in 2020 - 09 - 29 08 : 30
- * @Description: 在线聊天室：客户端
- * 目标：使用多线程实现多个客户可以正常收发多条消息
+ * @Description: 在线聊天室终极版本：客户端
+ * 目标：加入私聊
  */
-public class ThreadMulitClient2 {
+public class SomePeopleClient {
     public static void main(String[] args) throws IOException {
         System.out.println("---------Client---------");
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));

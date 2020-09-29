@@ -47,7 +47,15 @@ public class ThreadMulitChat2 {
                 release();
             }
         }
-
+        @Override
+        public void run() {
+            while (isRunning){
+                String msg = receive();
+                if(!msg.equals("")){
+                    send(msg);
+                }
+            }
+        }
         //接收消息
         private String receive(){
             String msg = "";
@@ -73,16 +81,6 @@ public class ThreadMulitChat2 {
         private void release(){
             this.isRunning = false;
             Utils.close(dis,dos,client);
-        }
-
-        @Override
-        public void run() {
-            while (isRunning){
-                String msg = receive();
-                if(!msg.equals("")){
-                    send(msg);
-                }
-            }
         }
     }
 }

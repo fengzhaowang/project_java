@@ -1,21 +1,20 @@
-package Chat;
+package Chat.Ultimate;
+
+import Chat.Utils;
 
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.IOException;
 import java.net.ServerSocket;
 import java.net.Socket;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.concurrent.Callable;
 import java.util.concurrent.CopyOnWriteArrayList;
 
 /**
  * @BelongsProject: Practice_Java
  * @Author: loveT
  * @Date: Created in 2020 - 09 - 29 08 : 30
- * @Description: 在线聊天室：服务端
- * 目标：加入容器，实现群聊
+ * @Description: 在线聊天室终极版本：服务端
+ * 目标：加入私聊
  */
 public class SomePeopleChat {
     /**
@@ -84,18 +83,41 @@ public class SomePeopleChat {
 
         /**
          * 群聊：获取自己的消息，发送给其他人
+         * 私聊：约定数据格式：@xxx:msg
          * @param msg
          */
         private void sendOthers(String msg,boolean isSys){
-            for(Channel other:all){
-               if(other == this){
-                   continue;
-               }
-               if(!isSys){
-                   other.send(this.uname+"对所有人说"+msg);//群聊消息
-               }else{
-                   other.send(msg);//系统消息
-               }
+            boolean isPrivate = msg.startsWith("@");
+            if(isPrivate){//私聊
+                int idx = 0;
+                if(msg.contains(":")){
+                    idx = msg.indexOf(":");
+                }else if(msg.contains("：")){
+                    idx = msg.indexOf("：");
+                }else{
+                    System.out.println("私聊错误");
+                }
+                //获取目标和数据
+                String targetName = msg.substring(1,idx);
+                msg = msg.substring(idx+1);
+                for (Channel other : all) {
+                   if(other.uname.equals(targetName)){//目标
+                       other.send(this.uname + "悄悄的对您说" + msg);
+                   }else{
+                       System.out.println("私聊错误");
+                   }
+                }
+            }else {
+                for (Channel other : all) {
+                    if (other == this) {
+                        continue;
+                    }
+                    if (!isSys) {
+                        other.send(this.uname + "对所有人说" + msg);//群聊消息
+                    } else {
+                        other.send(msg);//系统消息
+                    }
+                }
             }
         }
         //释放资源
