@@ -1,0 +1,23 @@
+POST /index.html HTTP/1.1
+Host: localhost:8888
+Connection: keep-alive
+Content-Length: 25
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+Origin: http://localhost:63342
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Referer: http://localhost:63342/Practice_Java/Server/Web/login.html?_ijt=6fk13n2r3uv7v6a49q7brkknuh
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: Idea-93c70c39=dc9bffe5-25f9-4ab6-9976-21a755c5d7ad; Idea-a7263303=7128c50b-d4ba-46b0-a5cf-711ba3cba0e2
+
+uname=2018030212&pwd=aaaa
+一个客户端建立了连接...
+
+Process finished with exit code 0

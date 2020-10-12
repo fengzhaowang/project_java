@@ -26,47 +26,97 @@ public class XmlTest02 {
         SAXParser parser = factory.newSAXParser();
         //3、编写处理器
         //4、加载文档 Document 注册处理器
-        ParsonHandler handler = new ParsonHandler();
+        PersonHandler handler = new PersonHandler();
         //5、解析
         parser.parse(Thread.currentThread().getContextClassLoader().getResourceAsStream("Server/Basic/Person.xml"),handler);
+
+        //获取数据
+        List<Person> persons = handler.getPersons();
+        for(Person p:persons){
+            System.out.println(p.getName()+"-->"+p.getAge());
+        }
 
     }
 }
 
-class ParsonHandler extends DefaultHandler{
+class PersonHandler extends DefaultHandler{
     private List<Person> persons;
     private Person person;
+    private String tag;//存储操作标签
+
+    /**
+     * 开始解析文档
+     */
     @Override
-    public void startDocument() throws SAXException {
-        System.out.println("开始解析文档");
-        persons = new ArrayList<Person>();//创建数组
+    public void startDocument(){
+        persons = new ArrayList<>();//创建数组
     }
 
+    /**
+     * 解析开始
+     * @param uri
+     * @param localName
+     * @param qName
+     * @param attributes
+     * @throws SAXException
+     */
     @Override
     public void startElement(String uri, String localName, String qName, Attributes attributes) throws SAXException {
-        System.out.println(qName+"--->解析开始");
-        if(qName.equals("person")){
-            person = new Person();//初始化
+        if(qName != null){
+            tag = qName;
+            if(tag.equals("person")){
+                person = new Person();//初始化
+            }
         }
     }
 
+    /**
+     * 获取内容
+     * @param ch
+     * @param start
+     * @param length
+     * @throws SAXException
+     */
     @Override
     public void characters(char[] ch, int start, int length) throws SAXException {
-        String contents = new String(ch,start,length).trim();
-        if(contents.length() > 0){
-            System.out.println("内容为："+contents);
-        }else{
-            System.out.println("内容为空");
+        String contents = new String(ch, start, length).trim();
+        if (tag != null){
+            if (tag.equals("name")) {
+                person.setName(contents);
+            } else if (tag.equals("age")) {
+                if (contents.length() > 0) {
+                    person.setAge(Integer.valueOf(contents));
+                }
+            }
         }
     }
 
+    /**
+     * 解析结束
+     * @param uri
+     * @param localName
+     * @param qName
+     * @throws SAXException
+     */
     @Override
     public void endElement(String uri, String localName, String qName) throws SAXException {
-        System.out.println(qName+"--->解析结束");
+        if (qName != null) {
+            if (qName.equals("person")) {
+                persons.add(person);
+            }
+        }
+        tag = null;
     }
 
+    /**
+     * 结束解析文档
+     * @throws SAXException
+     */
     @Override
     public void endDocument() throws SAXException {
-        System.out.println("结束解析文档");
+    }
+
+    public List<Person> getPersons() {
+        return persons;
     }
 }
