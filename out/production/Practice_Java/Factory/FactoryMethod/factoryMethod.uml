@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Factory.FactoryMethod.Car</OriginalElement>
+  <nodes>
+    <node x="0.0" y="106.0">Factory.FactoryMethod.BydFactory</node>
+    <node x="0.0" y="313.0">Factory.FactoryMethod.Byd</node>
+    <node x="124.0" y="313.0">Factory.FactoryMethod.Benz</node>
+    <node x="273.0" y="207.0">Factory.FactoryMethod.Client</node>
+    <node x="149.0" y="106.0">Factory.FactoryMethod.AudiFactory</node>
+    <node x="76.25" y="0.0">Factory.FactoryMethod.CarFactory</node>
+    <node x="62.00000000000001" y="207.0">Factory.FactoryMethod.Car</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Factory.FactoryMethod.BydFactory" target="Factory.FactoryMethod.CarFactory">
+      <point x="0.0" y="-28.0" />
+      <point x="64.5" y="81.0" />
+      <point x="108.5" y="81.0" />
+      <point x="-32.25" y="28.0" />
+    </edge>
+    <edge source="Factory.FactoryMethod.Byd" target="Factory.FactoryMethod.Car">
+      <point x="0.0" y="-28.0" />
+      <point x="52.0" y="288.0" />
+      <point x="88.0" y="288.0" />
+      <point x="-26.0" y="28.0" />
+    </edge>
+    <edge source="Factory.FactoryMethod.Benz" target="Factory.FactoryMethod.Car">
+      <point x="0.0" y="-28.0" />
+      <point x="176.0" y="288.0" />
+      <point x="139.99999999999997" y="288.0" />
+      <point x="25.99999999999997" y="28.0" />
+    </edge>
+    <edge source="Factory.FactoryMethod.AudiFactory" target="Factory.FactoryMethod.CarFactory">
+      <point x="0.0" y="-28.0" />
+      <point x="217.0" y="81.0" />
+      <point x="173.0" y="81.0" />
+      <point x="32.25" y="28.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="201.0" y="192.0" />
+  <SelectedNodes>
+    <node>Factory.FactoryMethod.Car</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
