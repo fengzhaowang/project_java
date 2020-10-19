@@ -4,7 +4,7 @@ package Factory.Builder;
  * @BelongsProject: Practice_Java
  * @Author: loveT
  * @Date: Created in 2020 - 10 - 15 11 : 05
- * @Description: todo
+ * @Description: 实现AirShipBuiler未实现的方法
  */
 @SuppressWarnings("all")
 public class MakeAirShipBuilder implements AirShipBuiler{

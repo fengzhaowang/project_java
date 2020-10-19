@@ -3,6 +3,7 @@ package Lambda;
 /**
  * 简化多线程
  */
+@SuppressWarnings("all")
 public class LambdaTest04 {
     public static void main(String[] args) {
         new Thread(() -> {

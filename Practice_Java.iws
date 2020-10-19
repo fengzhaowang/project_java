@@ -25,52 +25,112 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6320db1b-d62b-4ccf-b870-f301637068fe" name="Default Changelist" comment="10.14">
-      <change afterPath="$PROJECT_DIR$/src/Factory/AbstractFactory/CarFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/AbstractFactory/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/AbstractFactory/Engine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/AbstractFactory/LowCarFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/AbstractFactory/LuxuryCarFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/AbstractFactory/Seat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/AbstractFactory/Tyre.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/Builder/AirShip.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/Builder/AirShipBuiler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/Builder/AirShipDirector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/Builder/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/Builder/MakeAirShipBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/Builder/MakeAirShipDirctor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/FactoryMethod/Audi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/FactoryMethod/AudiFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/FactoryMethod/Benz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/FactoryMethod/BenzFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/FactoryMethod/Byd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/FactoryMethod/BydFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/FactoryMethod/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/FactoryMethod/CarFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/FactoryMethod/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/FactoryMethod/factoryMethod.uml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/SimpleFactory/Audi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/SimpleFactory/Byd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/SimpleFactory/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/SimpleFactory/CarFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/SimpleFactory/CarFactory2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/SimpleFactory/Client01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/SimpleFactory/Client02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/SimpleFactory/noFactory.uml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/SimpleFactory/simpleFactory.uml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Singleton/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Singleton/Client2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Singleton/Client3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Singleton/SingletonDemo01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Singleton/SingletonDemo02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Singleton/SingletonDemo03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Singleton/SingletonDemo04.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Singleton/SingletonDemo05.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Singleton/SingletonDemo06.java" afterDir="false" />
+    <list default="true" id="6320db1b-d62b-4ccf-b870-f301637068fe" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.19.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/Adapter/Adaptee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/Adapter/Adapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/Adapter/Adapter2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/Adapter/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/Adapter/Client.uml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/Adapter/Target.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/Bridge/Brand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/Bridge/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/Bridge/Computer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/Bridge/Computer2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/ChainOfResp/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/ChainOfResp/Director.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/ChainOfResp/GeneralManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/ChainOfResp/Leader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/ChainOfResp/LeaveRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/ChainOfResp/Manager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/Command/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/Command/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/Command/Invoke.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/Command/Receiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/Composite/AbstractFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/Composite/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/Composite/Component.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/Decorator/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/Decorator/ICar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/Facade/Bank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/Facade/BusinessCircles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/Facade/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/Facade/QualityInspectionBureau.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/Facade/RegisterFacade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/Facade/Taxation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/FlyWeight/ChessFlyWeight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/FlyWeight/ChessFlyWeightFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/FlyWeight/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/FlyWeight/Coordinate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/Iterator/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/Iterator/ConcreteMyAggregate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/Iterator/MyIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/Mediator/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/Mediator/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/Mediator/Development.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/Mediator/Finacial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/Mediator/Market.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/Mediator/Mediator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/Mediator/President.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/Memento/CareTaker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/Memento/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/Memento/Emp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/Memento/EmpMemento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/Observer/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/Observer/ConcreteSubject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/Observer/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/Observer/ObserverA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/Observer/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/Observer2/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/Observer2/ConcreteSubject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/Observer2/ObserverA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/Prototype/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/Prototype/Client2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/Prototype/Client3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/Prototype/Sheep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/Prototype/Sheep2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/Proxy/DynamicProxy/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/Proxy/DynamicProxy/RealStar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/Proxy/DynamicProxy/Star.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/Proxy/DynamicProxy/StarHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/Proxy/StaticProxy/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/Proxy/StaticProxy/ProxyStar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/Proxy/StaticProxy/RealStar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/Proxy/StaticProxy/Star.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/State/BookedState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/State/CheckInState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/State/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/State/FreeState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/State/HomeContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/State/State.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/Strategy/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/Strategy/Context.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/Strategy/NewCustomerFewStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/Strategy/NewCustomerManyStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/Strategy/OldCustomerFewStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/Strategy/OldCustomerManyStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/Strategy/Strategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/Strategy/TestStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/TemplateMethod/BankTemplateMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/TemplateMethod/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JDBC/Demo01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JDBC/Demo02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JDBC/Demo03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Regex/Demo01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Regex/Demo02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Regex/Demo03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Regex/Demo04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Regex/WebSpliderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice_Java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice_Java.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Practice_Java.iws" beforeDir="false" afterPath="$PROJECT_DIR$/Practice_Java.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice_Java/ClassLoad/A.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice_Java/ClassLoad/A.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice_Java/ClassLoad/B.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice_Java/ClassLoad/B.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice_Java/ClassLoad/Demo01.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice_Java/ClassLoad/Demo01.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice_Java/Factory/Builder/MakeAirShipDirctor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice_Java/Factory/Builder/MakeAirShipDirctor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice_Java/Lambda/LambdaTest04.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice_Java/Lambda/LambdaTest04.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice_Java/META-INF/Practice_Java.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Factory/Builder/AirShipBuiler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Factory/Builder/AirShipBuiler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Factory/Builder/Client.uml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Factory/Builder/Client.uml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Factory/Builder/MakeAirShipBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Factory/Builder/MakeAirShipBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Factory/Builder/MakeAirShipDirctor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Factory/Builder/MakeAirShipDirctor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lambda/LambdaTest04.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lambda/LambdaTest04.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,7 +210,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Factory/AbstractFactory" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/JDBC" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -166,33 +226,33 @@
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\idea\project_java\src\JDBC" />
+      <recent name="D:\idea\project_java\src\Factory\Facade" />
+      <recent name="D:\idea\project_java\src\Factory\Proxy\DynamicProxy" />
+      <recent name="D:\idea\project_java\src\Factory\AbstractFactory" />
+      <recent name="D:\idea\project_java\src\Factory\FactoryMethod" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Regex" />
+      <recent name="Factory.State" />
+      <recent name="Factory.Strategy" />
+      <recent name="Factory.Mediator" />
+      <recent name="Factory.ChainOfResp" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\idea\project_java\src\Server\Web3" />
       <recent name="D:\idea\project_java" />
       <recent name="D:\idea\project_java\src\IO\file" />
     </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="Factory.AbstractFactory" />
-      <recent name="Factory.FactoryMethod" />
-      <recent name="Factory.SimpleFactory" />
-      <recent name="Singleton" />
-      <recent name="Reflection" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\idea\project_java\src\Factory\AbstractFactory" />
-      <recent name="D:\idea\project_java\src\Factory\FactoryMethod" />
-      <recent name="D:\idea\project_java\src\Server\WebOver" />
-      <recent name="D:\idea\project_java\src\Server\WebOver\Core" />
-      <recent name="D:\idea\project_java\src\Server\Web2" />
-    </key>
   </component>
-  <component name="RunManager" selected="Application.Client">
-    <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Factory.FactoryMethod.Client" />
+  <component name="RunManager" selected="Application.Demo03 (1)">
+    <configuration name="Demo01 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JDBC.Demo01" />
       <module name="Practice_Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Factory.FactoryMethod.*" />
+          <option name="PATTERN" value="JDBC.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -200,12 +260,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Client (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Factory.AbstractFactory.Client" />
+    <configuration name="Demo02 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JDBC.Demo02" />
       <module name="Practice_Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Factory.AbstractFactory.*" />
+          <option name="PATTERN" value="JDBC.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -213,12 +273,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Factory.Builder.Client" />
+    <configuration name="Demo03 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JDBC.Demo03" />
       <module name="Practice_Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Factory.Builder.*" />
+          <option name="PATTERN" value="JDBC.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -226,25 +286,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Client02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Factory.SimpleFactory.Client02" />
+    <configuration name="Demo04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Regex.Demo04" />
       <module name="Practice_Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Factory.SimpleFactory.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Client3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Singleton.Client3" />
-      <module name="Practice_Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Singleton.*" />
+          <option name="PATTERN" value="Regex.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -266,28 +313,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WebSpliderTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Regex.WebSpliderTest" />
+      <module name="Practice_Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Regex.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.SomePeopleClient1" />
       <item itemvalue="Application.SomePeopleClient2" />
-      <item itemvalue="Application.Client3" />
-      <item itemvalue="Application.Client02" />
-      <item itemvalue="Application.Client (1)" />
-      <item itemvalue="Application.Client (2)" />
-      <item itemvalue="Application.Client" />
+      <item itemvalue="Application.Demo04" />
+      <item itemvalue="Application.WebSpliderTest" />
+      <item itemvalue="Application.Demo01 (1)" />
+      <item itemvalue="Application.Demo02 (1)" />
+      <item itemvalue="Application.Demo03 (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Client" />
-        <item itemvalue="Application.Client (2)" />
-        <item itemvalue="Application.Client (1)" />
-        <item itemvalue="Application.Client02" />
-        <item itemvalue="Application.Client3" />
+        <item itemvalue="Application.Demo03 (1)" />
+        <item itemvalue="Application.Demo02 (1)" />
+        <item itemvalue="Application.Demo01 (1)" />
+        <item itemvalue="Application.WebSpliderTest" />
+        <item itemvalue="Application.Demo04" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="StructureViewFactory">
-    <option name="ACTIVE_ACTIONS" value=",SHOW_LAMBDA,SHOW_ANONYMOUS" />
+    <option name="ACTIVE_ACTIONS" value=",SHOW_LAMBDA,SHOW_ANONYMOUS,ALPHA_COMPARATOR" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -433,7 +493,10 @@
       <workItem from="1602644753920" duration="1292000" />
       <workItem from="1602657558069" duration="11842000" />
       <workItem from="1602719042986" duration="2553000" />
-      <workItem from="1602723839487" duration="5924000" />
+      <workItem from="1602723839487" duration="15397000" />
+      <workItem from="1602808476411" duration="12051000" />
+      <workItem from="1602891395327" duration="28737000" />
+      <workItem from="1603063936557" duration="6421000" />
     </task>
     <task id="LOCAL-00001" summary="9.16">
       <created>1600224698664</created>
@@ -554,7 +617,28 @@
       <option name="project" value="LOCAL" />
       <updated>1602644057438</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="10.15">
+      <created>1602732450341</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1602732450341</updated>
+    </task>
+    <task id="LOCAL-00019" summary="10.15">
+      <created>1602732481933</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1602732481933</updated>
+    </task>
+    <task id="LOCAL-00020" summary="10.15">
+      <created>1602732493072</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1602732493072</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -610,7 +694,8 @@
     <MESSAGE value="9.29" />
     <MESSAGE value="10.12" />
     <MESSAGE value="10.14" />
-    <option name="LAST_COMMIT_MESSAGE" value="10.14" />
+    <MESSAGE value="10.15" />
+    <option name="LAST_COMMIT_MESSAGE" value="10.15" />
   </component>
   <component name="WindowStateProjectService">
     <state x="797" y="301" key="#HTTP_Proxy" timestamp="1602723606329">
@@ -638,10 +723,10 @@
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state x="824" y="442" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1858.1080@0.0.1858.1080" timestamp="1600171525186" />
-    <state x="1161" y="351" key="#com.intellij.ide.util.MemberChooser" timestamp="1602731469348">
+    <state x="1161" y="351" key="#com.intellij.ide.util.MemberChooser" timestamp="1603069273551">
       <screen x="0" y="0" width="1853" height="1080" />
     </state>
-    <state x="1161" y="351" key="#com.intellij.ide.util.MemberChooser/0.0.1853.1080@0.0.1853.1080" timestamp="1602731469348" />
+    <state x="1161" y="351" key="#com.intellij.ide.util.MemberChooser/0.0.1853.1080@0.0.1853.1080" timestamp="1603069273551" />
     <state x="1164" y="351" key="#com.intellij.ide.util.MemberChooser/0.0.1858.1080@0.0.1858.1080" timestamp="1602209787167" />
     <state x="837" y="448" width="447" height="222" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1600842892768">
       <screen x="0" y="0" width="1858" height="1080" />
@@ -656,10 +741,10 @@
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state x="659" y="286" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1858.1080@0.0.1858.1080" timestamp="1602209623964" />
-    <state x="672" y="280" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog" timestamp="1602576435345">
+    <state x="672" y="280" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog" timestamp="1603066886301">
       <screen x="0" y="0" width="1853" height="1080" />
     </state>
-    <state x="672" y="280" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.0.1853.1080@0.0.1853.1080" timestamp="1602576435345" />
+    <state x="672" y="280" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.0.1853.1080@0.0.1853.1080" timestamp="1603066886301" />
     <state x="1251" y="204" key="#commons-io-2.8.0.jar" timestamp="1600742154675">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
@@ -668,79 +753,80 @@
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state x="811" y="160" key="#quartz-2.3.0-SNAPSHOT.jar/0.0.1858.1080@0.0.1858.1080" timestamp="1600915745833" />
-    <state x="672" y="392" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1602209441492">
-      <screen x="0" y="0" width="1858" height="1080" />
-    </state>
-    <state x="672" y="392" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1858.1080@0.0.1858.1080" timestamp="1602209441492" />
-    <state x="526" y="104" key="CommitChangelistDialog2" timestamp="1602644921455">
+    <state x="670" y="392" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1602816027808">
       <screen x="0" y="0" width="1853" height="1080" />
     </state>
-    <state x="526" y="104" key="CommitChangelistDialog2/0.0.1853.1080@0.0.1853.1080" timestamp="1602644921455" />
+    <state x="670" y="392" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1853.1080@0.0.1853.1080" timestamp="1602816027808" />
+    <state x="672" y="392" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1858.1080@0.0.1858.1080" timestamp="1602209441492" />
+    <state x="526" y="104" key="CommitChangelistDialog2" timestamp="1602732492521">
+      <screen x="0" y="0" width="1853" height="1080" />
+    </state>
+    <state x="526" y="104" key="CommitChangelistDialog2/0.0.1853.1080@0.0.1853.1080" timestamp="1602732492521" />
     <state x="527" y="104" key="CommitChangelistDialog2/0.0.1858.1080@0.0.1858.1080" timestamp="1601387332721" />
     <state x="179" y="140" width="1202" height="821" key="DiffContextDialog" timestamp="1602722572598">
       <screen x="0" y="0" width="1853" height="1080" />
     </state>
     <state x="179" y="140" width="1202" height="821" key="DiffContextDialog/0.0.1853.1080@0.0.1853.1080" timestamp="1602722572598" />
     <state x="179" y="140" width="1205" height="821" key="DiffContextDialog/0.0.1858.1080@0.0.1858.1080" timestamp="1600415124534" />
-    <state x="707" y="280" key="FileChooserDialogImpl" timestamp="1602725203689">
+    <state x="707" y="280" key="FileChooserDialogImpl" timestamp="1603066892390">
       <screen x="0" y="0" width="1853" height="1080" />
     </state>
-    <state x="707" y="280" key="FileChooserDialogImpl/0.0.1853.1080@0.0.1853.1080" timestamp="1602725203689" />
+    <state x="707" y="280" key="FileChooserDialogImpl/0.0.1853.1080@0.0.1853.1080" timestamp="1603066892390" />
     <state x="709" y="280" key="FileChooserDialogImpl/0.0.1858.1080@0.0.1858.1080" timestamp="1600915949823" />
-    <state width="1386" height="273" key="GridCell.Tab.0.bottom" timestamp="1602731912283">
+    <state width="1353" height="202" key="GridCell.Tab.0.bottom" timestamp="1603073144017">
       <screen x="0" y="0" width="1853" height="1080" />
     </state>
-    <state width="1386" height="273" key="GridCell.Tab.0.bottom/0.0.1853.1080@0.0.1853.1080" timestamp="1602731912283" />
+    <state width="1353" height="202" key="GridCell.Tab.0.bottom/0.0.1853.1080@0.0.1853.1080" timestamp="1603073144017" />
     <state width="1386" height="405" key="GridCell.Tab.0.bottom/0.0.1858.1080@0.0.1858.1080" timestamp="1602378538980" />
-    <state width="1386" height="273" key="GridCell.Tab.0.center" timestamp="1602731912283">
+    <state width="1353" height="202" key="GridCell.Tab.0.center" timestamp="1603073144016">
       <screen x="0" y="0" width="1853" height="1080" />
     </state>
-    <state width="1386" height="273" key="GridCell.Tab.0.center/0.0.1853.1080@0.0.1853.1080" timestamp="1602731912283" />
+    <state width="1353" height="202" key="GridCell.Tab.0.center/0.0.1853.1080@0.0.1853.1080" timestamp="1603073144016" />
     <state width="1386" height="405" key="GridCell.Tab.0.center/0.0.1858.1080@0.0.1858.1080" timestamp="1602378538980" />
-    <state width="1386" height="273" key="GridCell.Tab.0.left" timestamp="1602731912283">
+    <state width="1353" height="202" key="GridCell.Tab.0.left" timestamp="1603073144016">
       <screen x="0" y="0" width="1853" height="1080" />
     </state>
-    <state width="1386" height="273" key="GridCell.Tab.0.left/0.0.1853.1080@0.0.1853.1080" timestamp="1602731912283" />
+    <state width="1353" height="202" key="GridCell.Tab.0.left/0.0.1853.1080@0.0.1853.1080" timestamp="1603073144016" />
     <state width="1386" height="405" key="GridCell.Tab.0.left/0.0.1858.1080@0.0.1858.1080" timestamp="1602378538979" />
-    <state width="1386" height="273" key="GridCell.Tab.0.right" timestamp="1602731912283">
+    <state width="1353" height="202" key="GridCell.Tab.0.right" timestamp="1603073144016">
       <screen x="0" y="0" width="1853" height="1080" />
     </state>
-    <state width="1386" height="273" key="GridCell.Tab.0.right/0.0.1853.1080@0.0.1853.1080" timestamp="1602731912283" />
+    <state width="1353" height="202" key="GridCell.Tab.0.right/0.0.1853.1080@0.0.1853.1080" timestamp="1603073144016" />
     <state width="1386" height="405" key="GridCell.Tab.0.right/0.0.1858.1080@0.0.1858.1080" timestamp="1602378538980" />
-    <state width="1386" height="226" key="GridCell.Tab.1.bottom" timestamp="1602681650881">
+    <state width="1353" height="242" key="GridCell.Tab.1.bottom" timestamp="1603069841308">
       <screen x="0" y="0" width="1853" height="1080" />
     </state>
-    <state width="1386" height="226" key="GridCell.Tab.1.bottom/0.0.1853.1080@0.0.1853.1080" timestamp="1602681650881" />
+    <state width="1353" height="242" key="GridCell.Tab.1.bottom/0.0.1853.1080@0.0.1853.1080" timestamp="1603069841308" />
     <state width="1594" height="377" key="GridCell.Tab.1.bottom/0.0.1858.1080@0.0.1858.1080" timestamp="1601372410216" />
-    <state width="1386" height="226" key="GridCell.Tab.1.center" timestamp="1602681650881">
+    <state width="1353" height="242" key="GridCell.Tab.1.center" timestamp="1603069841307">
       <screen x="0" y="0" width="1853" height="1080" />
     </state>
-    <state width="1386" height="226" key="GridCell.Tab.1.center/0.0.1853.1080@0.0.1853.1080" timestamp="1602681650881" />
+    <state width="1353" height="242" key="GridCell.Tab.1.center/0.0.1853.1080@0.0.1853.1080" timestamp="1603069841307" />
     <state width="1594" height="377" key="GridCell.Tab.1.center/0.0.1858.1080@0.0.1858.1080" timestamp="1601372410216" />
-    <state width="1386" height="226" key="GridCell.Tab.1.left" timestamp="1602681650881">
+    <state width="1353" height="242" key="GridCell.Tab.1.left" timestamp="1603069841306">
       <screen x="0" y="0" width="1853" height="1080" />
     </state>
-    <state width="1386" height="226" key="GridCell.Tab.1.left/0.0.1853.1080@0.0.1853.1080" timestamp="1602681650881" />
+    <state width="1353" height="242" key="GridCell.Tab.1.left/0.0.1853.1080@0.0.1853.1080" timestamp="1603069841306" />
     <state width="1594" height="377" key="GridCell.Tab.1.left/0.0.1858.1080@0.0.1858.1080" timestamp="1601372410216" />
-    <state width="1386" height="226" key="GridCell.Tab.1.right" timestamp="1602681650881">
+    <state width="1353" height="242" key="GridCell.Tab.1.right" timestamp="1603069841308">
       <screen x="0" y="0" width="1853" height="1080" />
     </state>
-    <state width="1386" height="226" key="GridCell.Tab.1.right/0.0.1853.1080@0.0.1853.1080" timestamp="1602681650881" />
+    <state width="1353" height="242" key="GridCell.Tab.1.right/0.0.1853.1080@0.0.1853.1080" timestamp="1603069841308" />
     <state width="1594" height="377" key="GridCell.Tab.1.right/0.0.1858.1080@0.0.1858.1080" timestamp="1601372410216" />
     <state x="569" y="274" key="IDE.errors.dialog" timestamp="1602721978965">
       <screen x="0" y="0" width="1853" height="1080" />
     </state>
     <state x="569" y="274" key="IDE.errors.dialog/0.0.1853.1080@0.0.1853.1080" timestamp="1602721978965" />
     <state x="571" y="274" key="IDE.errors.dialog/0.0.1858.1080@0.0.1858.1080" timestamp="1602334369339" />
-    <state x="527" y="228" width="998" height="708" key="SettingsEditor" timestamp="1602723943513">
+    <state x="527" y="228" width="998" height="708" key="SettingsEditor" timestamp="1603066896595">
       <screen x="0" y="0" width="1853" height="1080" />
     </state>
-    <state x="527" y="228" key="SettingsEditor/0.0.1853.1080@0.0.1853.1080" timestamp="1602723943513" />
+    <state x="527" y="228" key="SettingsEditor/0.0.1853.1080@0.0.1853.1080" timestamp="1603066896595" />
     <state x="445" y="172" width="998" height="708" key="SettingsEditor/0.0.1858.1080@0.0.1858.1080" timestamp="1602209600625" />
-    <state x="520" y="272" key="Vcs.Push.Dialog.v2" timestamp="1602644091416">
+    <state x="520" y="272" key="Vcs.Push.Dialog.v2" timestamp="1602732502755">
       <screen x="0" y="0" width="1853" height="1080" />
     </state>
-    <state x="520" y="272" key="Vcs.Push.Dialog.v2/0.0.1853.1080@0.0.1853.1080" timestamp="1602644091416" />
+    <state x="520" y="272" key="Vcs.Push.Dialog.v2/0.0.1853.1080@0.0.1853.1080" timestamp="1602732502755" />
     <state x="521" y="272" key="Vcs.Push.Dialog.v2/0.0.1858.1080@0.0.1858.1080" timestamp="1601387358627" />
     <state x="512" y="201" width="1205" height="688" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1600930466444">
       <screen x="0" y="0" width="1858" height="1080" />
@@ -770,19 +856,20 @@
       <screen x="0" y="0" width="1853" height="1080" />
     </state>
     <state x="668" y="373" key="git4idea.merge.GitPullDialog/0.0.1853.1080@0.0.1853.1080" timestamp="1602644601642" />
-    <state x="699" y="205" key="refactoring.ChangeSignatureDialog" timestamp="1601426938124">
-      <screen x="0" y="0" width="1858" height="1080" />
+    <state x="697" y="205" key="refactoring.ChangeSignatureDialog" timestamp="1602816349190">
+      <screen x="0" y="0" width="1853" height="1080" />
     </state>
+    <state x="697" y="205" key="refactoring.ChangeSignatureDialog/0.0.1853.1080@0.0.1853.1080" timestamp="1602816349190" />
     <state x="699" y="205" key="refactoring.ChangeSignatureDialog/0.0.1858.1080@0.0.1858.1080" timestamp="1601426938124" />
-    <state x="1219" y="263" key="run.anything.popup" timestamp="1602661881078">
+    <state x="1219" y="263" key="run.anything.popup" timestamp="1602981183055">
       <screen x="0" y="0" width="1853" height="1080" />
     </state>
-    <state x="1219" y="263" key="run.anything.popup/0.0.1853.1080@0.0.1853.1080" timestamp="1602661881078" />
+    <state x="1219" y="263" key="run.anything.popup/0.0.1853.1080@0.0.1853.1080" timestamp="1602981183055" />
     <state x="1222" y="263" key="run.anything.popup/0.0.1858.1080@0.0.1858.1080" timestamp="1600331681629" />
-    <state x="777" y="238" width="672" height="678" key="search.everywhere.popup" timestamp="1602558538294">
+    <state x="777" y="238" width="672" height="678" key="search.everywhere.popup" timestamp="1603068119572">
       <screen x="0" y="0" width="1853" height="1080" />
     </state>
-    <state x="777" y="238" width="672" height="678" key="search.everywhere.popup/0.0.1853.1080@0.0.1853.1080" timestamp="1602558538294" />
+    <state x="777" y="238" width="672" height="678" key="search.everywhere.popup/0.0.1853.1080@0.0.1853.1080" timestamp="1603068119572" />
     <state x="779" y="238" width="672" height="678" key="search.everywhere.popup/0.0.1858.1080@0.0.1858.1080" timestamp="1601278251915" />
   </component>
 </project>
