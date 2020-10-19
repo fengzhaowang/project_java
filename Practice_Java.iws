@@ -26,111 +26,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6320db1b-d62b-4ccf-b870-f301637068fe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.19.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/Adapter/Adaptee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/Adapter/Adapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/Adapter/Adapter2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/Adapter/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/Adapter/Client.uml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/Adapter/Target.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/Bridge/Brand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/Bridge/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/Bridge/Computer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/Bridge/Computer2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/ChainOfResp/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/ChainOfResp/Director.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/ChainOfResp/GeneralManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/ChainOfResp/Leader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/ChainOfResp/LeaveRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/ChainOfResp/Manager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/Command/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/Command/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/Command/Invoke.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/Command/Receiver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/Composite/AbstractFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/Composite/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/Composite/Component.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/Decorator/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/Decorator/ICar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/Facade/Bank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/Facade/BusinessCircles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/Facade/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/Facade/QualityInspectionBureau.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/Facade/RegisterFacade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/Facade/Taxation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/FlyWeight/ChessFlyWeight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/FlyWeight/ChessFlyWeightFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/FlyWeight/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/FlyWeight/Coordinate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/Iterator/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/Iterator/ConcreteMyAggregate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/Iterator/MyIterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/Mediator/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/Mediator/Department.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/Mediator/Development.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/Mediator/Finacial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/Mediator/Market.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/Mediator/Mediator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/Mediator/President.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/Memento/CareTaker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/Memento/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/Memento/Emp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/Memento/EmpMemento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/Observer/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/Observer/ConcreteSubject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/Observer/Observer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/Observer/ObserverA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/Observer/Subject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/Observer2/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/Observer2/ConcreteSubject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/Observer2/ObserverA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/Prototype/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/Prototype/Client2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/Prototype/Client3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/Prototype/Sheep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/Prototype/Sheep2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/Proxy/DynamicProxy/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/Proxy/DynamicProxy/RealStar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/Proxy/DynamicProxy/Star.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/Proxy/DynamicProxy/StarHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/Proxy/StaticProxy/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/Proxy/StaticProxy/ProxyStar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/Proxy/StaticProxy/RealStar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/Proxy/StaticProxy/Star.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/State/BookedState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/State/CheckInState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/State/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/State/FreeState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/State/HomeContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/State/State.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/Strategy/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/Strategy/Context.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/Strategy/NewCustomerFewStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/Strategy/NewCustomerManyStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/Strategy/OldCustomerFewStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/Strategy/OldCustomerManyStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/Strategy/Strategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/Strategy/TestStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/TemplateMethod/BankTemplateMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/TemplateMethod/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JDBC/Demo01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JDBC/Demo02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JDBC/Demo03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Regex/Demo01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Regex/Demo02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Regex/Demo03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Regex/Demo04.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Regex/WebSpliderTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice_Java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice_Java.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice_Java.iws" beforeDir="false" afterPath="$PROJECT_DIR$/Practice_Java.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice_Java/Factory/Builder/MakeAirShipDirctor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice_Java/Factory/Builder/MakeAirShipDirctor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice_Java/Lambda/LambdaTest04.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice_Java/Lambda/LambdaTest04.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice_Java/META-INF/Practice_Java.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Factory/Builder/AirShipBuiler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Factory/Builder/AirShipBuiler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Factory/Builder/Client.uml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Factory/Builder/Client.uml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Factory/Builder/MakeAirShipBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Factory/Builder/MakeAirShipBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Factory/Builder/MakeAirShipDirctor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Factory/Builder/MakeAirShipDirctor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lambda/LambdaTest04.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lambda/LambdaTest04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -496,7 +392,7 @@
       <workItem from="1602723839487" duration="15397000" />
       <workItem from="1602808476411" duration="12051000" />
       <workItem from="1602891395327" duration="28737000" />
-      <workItem from="1603063936557" duration="6421000" />
+      <workItem from="1603063936557" duration="6723000" />
     </task>
     <task id="LOCAL-00001" summary="9.16">
       <created>1600224698664</created>
@@ -638,7 +534,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602732493072</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="10.15">
+      <created>1603073868273</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1603073868273</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -758,10 +661,10 @@
     </state>
     <state x="670" y="392" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1853.1080@0.0.1853.1080" timestamp="1602816027808" />
     <state x="672" y="392" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1858.1080@0.0.1858.1080" timestamp="1602209441492" />
-    <state x="526" y="104" key="CommitChangelistDialog2" timestamp="1602732492521">
+    <state x="526" y="104" key="CommitChangelistDialog2" timestamp="1603073863858">
       <screen x="0" y="0" width="1853" height="1080" />
     </state>
-    <state x="526" y="104" key="CommitChangelistDialog2/0.0.1853.1080@0.0.1853.1080" timestamp="1602732492521" />
+    <state x="526" y="104" key="CommitChangelistDialog2/0.0.1853.1080@0.0.1853.1080" timestamp="1603073863858" />
     <state x="527" y="104" key="CommitChangelistDialog2/0.0.1858.1080@0.0.1858.1080" timestamp="1601387332721" />
     <state x="179" y="140" width="1202" height="821" key="DiffContextDialog" timestamp="1602722572598">
       <screen x="0" y="0" width="1853" height="1080" />
