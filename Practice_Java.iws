@@ -26,7 +26,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6320db1b-d62b-4ccf-b870-f301637068fe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JDBC/Demo04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JDBC/Demo05.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JDBC/Demo06.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JDBC/Demo07.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JDBC/Demo08.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JDBC/Demo09.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JDBC/JDBCUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ORM/testORM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ORM/testORM2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice_Java.iws" beforeDir="false" afterPath="$PROJECT_DIR$/Practice_Java.iws" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JDBC/Demo01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JDBC/Demo01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JDBC/Demo02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JDBC/Demo02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JDBC/Demo03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JDBC/Demo03.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +108,6 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
     <option name="showVisibilityIcons" value="true" />
-    <option name="sortByType" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
@@ -130,11 +141,11 @@
       <recent name="D:\idea\project_java\src\Factory\FactoryMethod" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ORM" />
+      <recent name="JDBC" />
       <recent name="Regex" />
       <recent name="Factory.State" />
       <recent name="Factory.Strategy" />
-      <recent name="Factory.Mediator" />
-      <recent name="Factory.ChainOfResp" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\idea\project_java\src\Server\Web3" />
@@ -142,9 +153,9 @@
       <recent name="D:\idea\project_java\src\IO\file" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Demo03 (1)">
-    <configuration name="Demo01 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JDBC.Demo01" />
+  <component name="RunManager" selected="Application.testORM2">
+    <configuration name="Demo07" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JDBC.Demo07" />
       <module name="Practice_Java" />
       <extension name="coverage">
         <pattern>
@@ -156,8 +167,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo02 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JDBC.Demo02" />
+    <configuration name="Demo08" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JDBC.Demo08" />
       <module name="Practice_Java" />
       <extension name="coverage">
         <pattern>
@@ -169,25 +180,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo03 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JDBC.Demo03" />
+    <configuration name="Demo09" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JDBC.Demo09" />
       <module name="Practice_Java" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="JDBC.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Demo04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Regex.Demo04" />
-      <module name="Practice_Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Regex.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -209,12 +207,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WebSpliderTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Regex.WebSpliderTest" />
+    <configuration name="testORM" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ORM.testORM" />
       <module name="Practice_Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Regex.*" />
+          <option name="PATTERN" value="ORM.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testORM2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ORM.testORM2" />
+      <module name="Practice_Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ORM.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -225,19 +236,19 @@
     <list>
       <item itemvalue="Application.SomePeopleClient1" />
       <item itemvalue="Application.SomePeopleClient2" />
-      <item itemvalue="Application.Demo04" />
-      <item itemvalue="Application.WebSpliderTest" />
-      <item itemvalue="Application.Demo01 (1)" />
-      <item itemvalue="Application.Demo02 (1)" />
-      <item itemvalue="Application.Demo03 (1)" />
+      <item itemvalue="Application.Demo07" />
+      <item itemvalue="Application.Demo08" />
+      <item itemvalue="Application.Demo09" />
+      <item itemvalue="Application.testORM" />
+      <item itemvalue="Application.testORM2" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Demo03 (1)" />
-        <item itemvalue="Application.Demo02 (1)" />
-        <item itemvalue="Application.Demo01 (1)" />
-        <item itemvalue="Application.WebSpliderTest" />
-        <item itemvalue="Application.Demo04" />
+        <item itemvalue="Application.testORM2" />
+        <item itemvalue="Application.testORM" />
+        <item itemvalue="Application.Demo09" />
+        <item itemvalue="Application.Demo08" />
+        <item itemvalue="Application.Demo07" />
       </list>
     </recent_temporary>
   </component>
@@ -392,7 +403,8 @@
       <workItem from="1602723839487" duration="15397000" />
       <workItem from="1602808476411" duration="12051000" />
       <workItem from="1602891395327" duration="28737000" />
-      <workItem from="1603063936557" duration="6723000" />
+      <workItem from="1603063936557" duration="23344000" />
+      <workItem from="1603150374438" duration="605000" />
     </task>
     <task id="LOCAL-00001" summary="9.16">
       <created>1600224698664</created>
@@ -541,7 +553,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603073868273</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="10.15">
+      <created>1603073887320</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1603073887320</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -626,10 +645,10 @@
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state x="824" y="442" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1858.1080@0.0.1858.1080" timestamp="1600171525186" />
-    <state x="1161" y="351" key="#com.intellij.ide.util.MemberChooser" timestamp="1603069273551">
+    <state x="1161" y="351" key="#com.intellij.ide.util.MemberChooser" timestamp="1603109295681">
       <screen x="0" y="0" width="1853" height="1080" />
     </state>
-    <state x="1161" y="351" key="#com.intellij.ide.util.MemberChooser/0.0.1853.1080@0.0.1853.1080" timestamp="1603069273551" />
+    <state x="1161" y="351" key="#com.intellij.ide.util.MemberChooser/0.0.1853.1080@0.0.1853.1080" timestamp="1603109295681" />
     <state x="1164" y="351" key="#com.intellij.ide.util.MemberChooser/0.0.1858.1080@0.0.1858.1080" timestamp="1602209787167" />
     <state x="837" y="448" width="447" height="222" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1600842892768">
       <screen x="0" y="0" width="1858" height="1080" />
@@ -661,10 +680,10 @@
     </state>
     <state x="670" y="392" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1853.1080@0.0.1853.1080" timestamp="1602816027808" />
     <state x="672" y="392" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1858.1080@0.0.1858.1080" timestamp="1602209441492" />
-    <state x="526" y="104" key="CommitChangelistDialog2" timestamp="1603073863858">
+    <state x="526" y="104" key="CommitChangelistDialog2" timestamp="1603073886796">
       <screen x="0" y="0" width="1853" height="1080" />
     </state>
-    <state x="526" y="104" key="CommitChangelistDialog2/0.0.1853.1080@0.0.1853.1080" timestamp="1603073863858" />
+    <state x="526" y="104" key="CommitChangelistDialog2/0.0.1853.1080@0.0.1853.1080" timestamp="1603073886796" />
     <state x="527" y="104" key="CommitChangelistDialog2/0.0.1858.1080@0.0.1858.1080" timestamp="1601387332721" />
     <state x="179" y="140" width="1202" height="821" key="DiffContextDialog" timestamp="1602722572598">
       <screen x="0" y="0" width="1853" height="1080" />
@@ -676,45 +695,45 @@
     </state>
     <state x="707" y="280" key="FileChooserDialogImpl/0.0.1853.1080@0.0.1853.1080" timestamp="1603066892390" />
     <state x="709" y="280" key="FileChooserDialogImpl/0.0.1858.1080@0.0.1858.1080" timestamp="1600915949823" />
-    <state width="1353" height="202" key="GridCell.Tab.0.bottom" timestamp="1603073144017">
+    <state width="1353" height="242" key="GridCell.Tab.0.bottom" timestamp="1603112400320">
       <screen x="0" y="0" width="1853" height="1080" />
     </state>
-    <state width="1353" height="202" key="GridCell.Tab.0.bottom/0.0.1853.1080@0.0.1853.1080" timestamp="1603073144017" />
+    <state width="1353" height="242" key="GridCell.Tab.0.bottom/0.0.1853.1080@0.0.1853.1080" timestamp="1603112400320" />
     <state width="1386" height="405" key="GridCell.Tab.0.bottom/0.0.1858.1080@0.0.1858.1080" timestamp="1602378538980" />
-    <state width="1353" height="202" key="GridCell.Tab.0.center" timestamp="1603073144016">
+    <state width="1353" height="242" key="GridCell.Tab.0.center" timestamp="1603112400320">
       <screen x="0" y="0" width="1853" height="1080" />
     </state>
-    <state width="1353" height="202" key="GridCell.Tab.0.center/0.0.1853.1080@0.0.1853.1080" timestamp="1603073144016" />
+    <state width="1353" height="242" key="GridCell.Tab.0.center/0.0.1853.1080@0.0.1853.1080" timestamp="1603112400320" />
     <state width="1386" height="405" key="GridCell.Tab.0.center/0.0.1858.1080@0.0.1858.1080" timestamp="1602378538980" />
-    <state width="1353" height="202" key="GridCell.Tab.0.left" timestamp="1603073144016">
+    <state width="1353" height="242" key="GridCell.Tab.0.left" timestamp="1603112400320">
       <screen x="0" y="0" width="1853" height="1080" />
     </state>
-    <state width="1353" height="202" key="GridCell.Tab.0.left/0.0.1853.1080@0.0.1853.1080" timestamp="1603073144016" />
+    <state width="1353" height="242" key="GridCell.Tab.0.left/0.0.1853.1080@0.0.1853.1080" timestamp="1603112400320" />
     <state width="1386" height="405" key="GridCell.Tab.0.left/0.0.1858.1080@0.0.1858.1080" timestamp="1602378538979" />
-    <state width="1353" height="202" key="GridCell.Tab.0.right" timestamp="1603073144016">
+    <state width="1353" height="242" key="GridCell.Tab.0.right" timestamp="1603112400320">
       <screen x="0" y="0" width="1853" height="1080" />
     </state>
-    <state width="1353" height="202" key="GridCell.Tab.0.right/0.0.1853.1080@0.0.1853.1080" timestamp="1603073144016" />
+    <state width="1353" height="242" key="GridCell.Tab.0.right/0.0.1853.1080@0.0.1853.1080" timestamp="1603112400320" />
     <state width="1386" height="405" key="GridCell.Tab.0.right/0.0.1858.1080@0.0.1858.1080" timestamp="1602378538980" />
-    <state width="1353" height="242" key="GridCell.Tab.1.bottom" timestamp="1603069841308">
+    <state width="1353" height="242" key="GridCell.Tab.1.bottom" timestamp="1603112400320">
       <screen x="0" y="0" width="1853" height="1080" />
     </state>
-    <state width="1353" height="242" key="GridCell.Tab.1.bottom/0.0.1853.1080@0.0.1853.1080" timestamp="1603069841308" />
+    <state width="1353" height="242" key="GridCell.Tab.1.bottom/0.0.1853.1080@0.0.1853.1080" timestamp="1603112400320" />
     <state width="1594" height="377" key="GridCell.Tab.1.bottom/0.0.1858.1080@0.0.1858.1080" timestamp="1601372410216" />
-    <state width="1353" height="242" key="GridCell.Tab.1.center" timestamp="1603069841307">
+    <state width="1353" height="242" key="GridCell.Tab.1.center" timestamp="1603112400320">
       <screen x="0" y="0" width="1853" height="1080" />
     </state>
-    <state width="1353" height="242" key="GridCell.Tab.1.center/0.0.1853.1080@0.0.1853.1080" timestamp="1603069841307" />
+    <state width="1353" height="242" key="GridCell.Tab.1.center/0.0.1853.1080@0.0.1853.1080" timestamp="1603112400320" />
     <state width="1594" height="377" key="GridCell.Tab.1.center/0.0.1858.1080@0.0.1858.1080" timestamp="1601372410216" />
-    <state width="1353" height="242" key="GridCell.Tab.1.left" timestamp="1603069841306">
+    <state width="1353" height="242" key="GridCell.Tab.1.left" timestamp="1603112400320">
       <screen x="0" y="0" width="1853" height="1080" />
     </state>
-    <state width="1353" height="242" key="GridCell.Tab.1.left/0.0.1853.1080@0.0.1853.1080" timestamp="1603069841306" />
+    <state width="1353" height="242" key="GridCell.Tab.1.left/0.0.1853.1080@0.0.1853.1080" timestamp="1603112400320" />
     <state width="1594" height="377" key="GridCell.Tab.1.left/0.0.1858.1080@0.0.1858.1080" timestamp="1601372410216" />
-    <state width="1353" height="242" key="GridCell.Tab.1.right" timestamp="1603069841308">
+    <state width="1353" height="242" key="GridCell.Tab.1.right" timestamp="1603112400320">
       <screen x="0" y="0" width="1853" height="1080" />
     </state>
-    <state width="1353" height="242" key="GridCell.Tab.1.right/0.0.1853.1080@0.0.1853.1080" timestamp="1603069841308" />
+    <state width="1353" height="242" key="GridCell.Tab.1.right/0.0.1853.1080@0.0.1853.1080" timestamp="1603112400320" />
     <state width="1594" height="377" key="GridCell.Tab.1.right/0.0.1858.1080@0.0.1858.1080" timestamp="1601372410216" />
     <state x="569" y="274" key="IDE.errors.dialog" timestamp="1602721978965">
       <screen x="0" y="0" width="1853" height="1080" />
@@ -726,10 +745,10 @@
     </state>
     <state x="527" y="228" key="SettingsEditor/0.0.1853.1080@0.0.1853.1080" timestamp="1603066896595" />
     <state x="445" y="172" width="998" height="708" key="SettingsEditor/0.0.1858.1080@0.0.1858.1080" timestamp="1602209600625" />
-    <state x="520" y="272" key="Vcs.Push.Dialog.v2" timestamp="1602732502755">
+    <state x="520" y="272" key="Vcs.Push.Dialog.v2" timestamp="1603073909951">
       <screen x="0" y="0" width="1853" height="1080" />
     </state>
-    <state x="520" y="272" key="Vcs.Push.Dialog.v2/0.0.1853.1080@0.0.1853.1080" timestamp="1602732502755" />
+    <state x="520" y="272" key="Vcs.Push.Dialog.v2/0.0.1853.1080@0.0.1853.1080" timestamp="1603073909951" />
     <state x="521" y="272" key="Vcs.Push.Dialog.v2/0.0.1858.1080@0.0.1858.1080" timestamp="1601387358627" />
     <state x="512" y="201" width="1205" height="688" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1600930466444">
       <screen x="0" y="0" width="1858" height="1080" />
@@ -769,10 +788,10 @@
     </state>
     <state x="1219" y="263" key="run.anything.popup/0.0.1853.1080@0.0.1853.1080" timestamp="1602981183055" />
     <state x="1222" y="263" key="run.anything.popup/0.0.1858.1080@0.0.1858.1080" timestamp="1600331681629" />
-    <state x="777" y="238" width="672" height="678" key="search.everywhere.popup" timestamp="1603068119572">
+    <state x="777" y="238" width="672" height="678" key="search.everywhere.popup" timestamp="1603091729817">
       <screen x="0" y="0" width="1853" height="1080" />
     </state>
-    <state x="777" y="238" width="672" height="678" key="search.everywhere.popup/0.0.1853.1080@0.0.1853.1080" timestamp="1603068119572" />
+    <state x="777" y="238" width="672" height="678" key="search.everywhere.popup/0.0.1853.1080@0.0.1853.1080" timestamp="1603091729817" />
     <state x="779" y="238" width="672" height="678" key="search.everywhere.popup/0.0.1858.1080@0.0.1858.1080" timestamp="1601278251915" />
   </component>
 </project>

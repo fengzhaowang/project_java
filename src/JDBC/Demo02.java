@@ -1,9 +1,6 @@
 package JDBC;
 
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.ResultSet;
-import java.sql.Statement;
+import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -16,16 +13,19 @@ import java.util.List;
 @SuppressWarnings("all")
 public class Demo02 {
     public static void main(String[] args) {
+        Connection coon = null;
+        Statement statement = null;
+        ResultSet resultSet = null;
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
-            Connection coon = DriverManager.getConnection("jdbc:mysql://localhost:3306/cai?serverTimezone=UTC&useUnicode=true&zeroDateTimeBehavior=convertToNull&autoReconnect=true&characterEncoding=utf-8",
+            coon = DriverManager.getConnection("jdbc:mysql://localhost:3306/cai?serverTimezone=UTC&useUnicode=true&zeroDateTimeBehavior=convertToNull&autoReconnect=true&characterEncoding=utf-8",
                     "root", "12345");
-            Statement statement = coon.createStatement();
+            statement = coon.createStatement();
             String sql = "SELECT * FROM cai_info";
             boolean execute = statement.execute(sql);
             System.out.println(execute);
             if(execute){
-                ResultSet resultSet = statement.executeQuery(sql);
+                resultSet = statement.executeQuery(sql);
                 List<Cai> list = new ArrayList<>();
                 while (resultSet.next()){
                     Cai cai = new Cai();
@@ -47,6 +47,28 @@ public class Demo02 {
             //statement.execute(sql);
         } catch (Exception e) {
             e.printStackTrace();
+        }finally {
+            try {
+                if(resultSet != null){
+                    resultSet.close();
+                }
+            }catch (SQLException throwables) {
+                throwables.printStackTrace();
+            }
+            try {
+                if(statement != null){
+                    statement.close();
+                }
+            } catch (SQLException throwables) {
+                throwables.printStackTrace();
+            }
+            try {
+                if(coon != null) {
+                    coon.close();
+                }
+            } catch (SQLException throwables) {
+                throwables.printStackTrace();
+            }
         }
     }
 }
